@@ -1,27 +1,22 @@
-# TÍTULO DO PROJETO
+## Aplicação Web para suporte ao processo de compra de veículos com base em autonomia e custo de energia
 
-`CURSO`
+`CURSO` Tecnologia em Sistemas para Internet
 
-`DISCIPLINA`
+`DISCIPLINA` Projeto:Aplicações Web
 
-`SEMESTRE`
-
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+`SEMESTRE` 02-2021
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Dione Pereira
+* Iara Camargo
+* Gustavo Henrique
+* Tulio Teodoro
+* Yuri Ribeiro
 
 ## Orientador
 
-* Nome completo do professor 1
-
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+* Nathália Valentim
 
 # Documentação
 
