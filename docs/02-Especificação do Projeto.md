@@ -8,37 +8,108 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+As personas levantadas durante o processo de entendimento do problema são apresentadas a seguir:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+<table>
+ <tr>
+  <th>Foto</th>
+  <th>Nome</th>
+  <th>Descrição</th>
+  <th>Motivações</th>
+  <th>Frustrações</th>
+  <th>Hobbies, Histórias</th>
+ </tr>
+ <tr>
+  <td><img width="600px" height="auto" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona01.jpg"></td>
+  <td>Carlos</td>
+  <td>
+    <ul>
+       <li>35 Anos.</li>
+       <li>Médico clínico geral de São Carlos - SP.</li>
+    </ul>
+  </td>
+  <td>
+   <ul>
+       <li>Ajudar pessoas.</li>
+       <li>Fazer a diferença no mundo.</li>
+    </ul>
+  </td>
+  <td>
+   <ul>
+       <li>Desigualdade social.</li>
+       <li>Poluição.</li>
+    </ul>
+  </td>
+  <td>
+   É solteiro, adora viajar hospedando-se pelo aplicativo airbnb e apaixonado por tecnologias, sempre que possível está escutando podcast no Spotify. Recentemente automatizou   toda sua casa a deixando "inteligente", sempre que possível está buscando inovações.</td>
+ </tr>
+ <tr>
+  <td><img width="600px" height="auto" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona.jpg"></td>
+  <td>Gabi</td>
+  <td>
+   <ul>
+    <li>40 Anos.</li>
+    <li>Professora universitária na UFOP, Ouro Preto - MG.</li>
+   </ul>
+  </td>
+  <td>
+  <ul>
+    <li>Inovações.</li>
+    <li>Transformar o mundo.</li>
+   </ul>
+  </td>
+  <td>
+  <ul>
+    <li>Desigualdade digital.</li>
+   </ul>
+  </td>
+  <td>É casada, entusiasta por tecnologia. Em suas aulas de IA (inteligência artificial) sempre busca inspirar seus alunos com conteúdos inovadores. Sempre antenada em novidades, vive com o aplicativo do LinkedIn aberto lendo artigo ali publicados e fazendo networking. Recentemente ajudou a montar o novo laboratório de IA na universidade.</td>
+ </tr>
+ <tr>
+  <td><img width="600px" height="auto" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona03.jpg"></td>
+  <td>Pedro Paulo</td>
+  <td> 
+    <ul>
+       <li>45 Anos.</li>
+      <li>Arquiteto renomado em Belo Horizonte - MG.</li>
+   </ul>
+  </td>
+  <td>
+   <ul>
+       <li>Sustentabilidade.</li>
+      <li>Torna o mundo melhor.</li>
+   </ul>
+  </td>
+  <td>
+  <ul>
+      <li>Desmatamento.</li>
+      <li>Queimada.</li>
+     <li>Poluição.</li>
+   </ul>
+  </td>
+  <td>É casado e sua esposa está esperando o primeiro filho do casal. Sempre busca criar seus projetos de forma sustentável, deixa claro sua preocupação com o meio ambiente. Recentemente comprou uma casa em um condomínio fechado muito conhecido na região por sua reserva ambiental.
+Utiliza muito os aplicativos Strava e Relieve para registrar suas aventuras em trilhas.</td>
+ </tr>
+</table>
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`             |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------            |----------------------------------------|
+|Administrador       | Realizar cadastro de usuario                    | Para que eu possa compartilhar o gerenciamento da aplicação|
+|Administrador       | Registrar logon do sistema                    | Para que eu possa gerenciar a aplicação|
+|Administrador       | Registrar logoff do sistema                    | Garantir a integridade da conta de administrador|
+|Administrador       | Cadastrar veículos                   | Melhorar a usuabilidade do usuário, possibilitando a seleção de veículo|
+|Usuário do sistema  | Calcular a autonomia do veículo elétrico       | Analisar o desempenho e o custo de energia|
+|Usuário do sistema  | Compartilhar e imprimir o resultado do cálculo | Ter informações impressas e detalhadas |
+|Usuário do sistema  | Encontrar pontos de eletropostos | Conhecer pontos de recarga |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+## Requisitos
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ## Requisitos
 
@@ -47,32 +118,36 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|-----|-----------------------------------------|----|
+|RF-001| Cada campo do formulário deve validar o tipo de dado | ALTA |
+|RF-002| Permitir que o usuário escolha o modelo do veículo entre as opções cadastradas | ALTA |
+|RF-003| Ao final do cálculo, oferecer opção para o usuário compartilhar o resultado | BAIXA |
+|RF-004| Permitir que o administrador efetue Logoff no sistema | ALTA |
+|RF-005| Permitir que o administrador realize o cadastro de veículos | ALTA |
+|RF-006| Permitir que o administrador realize o cadastro de usuários | ALTA |
+|RF-007| Permitir que o administrador efetue Logon no sistema | ALTA |
+|RF-008| Realizar os cálculos necessários para comparação da autonomia e custo beneficio entre carros elétricos x combustão | ALTA |
+|RF-009| Permitir recuperação de login| BAIXA |
+|RF-010| Restrição de extensão do arquivo do upload de imagens| MÉDIA |
+|RF-011| Restrição de tamanho de arquivo do upload de imagens | MÉDIA |
+|RF-012| Criar 3 alternativas de cálculo para escolha do usuario | ALTA |
+|RF-013| Criar o modal para exibição das alternativas de cálculo | ALTA |
+|RF-014| Realizar cálculo com informações personalizadas | ALTA |	
+|RF-015| Realizar cálculo com informações dos veículos cadastrados | ALTA |
+|RF-016| Realizar cálculo com informações do meu veículo vs carro elétrico | ALTA |
+|RF-017| Cada campo de formulário que possa gerar dúvida deve possuir um icone de ajuda | ALTA |
+|RF-018| Permitir que o usuário encontre eletropostos disponíveis no Brasil | ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O sistema deve ser responsivo para executar em dispositivos móveis | ALTA |
+|RNF-002| As permissões de acesso ao sistema podem ser alteradas apenas pelo administrador de sistemas | MÉDIA |
+|RNF-003| Utilizar o SCRUM como metodologia de desenvolvimento | ALTA | 
+|RNF-004| Interface Intuitiva e Reativa | Alta | 
+|RNF-005| O sistema deve funcionar em todos os principais navegadores (Chrome, mozila e Edge) |  MÉDIA | 
+|RNF-006| Deve processar requisições do usuário em no máximo 5s |  BAIXA | 
 
 ## Restrições
 
