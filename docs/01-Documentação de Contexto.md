@@ -1,18 +1,13 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Contexto 
+
+Devido à uma atual preocupação com o meio ambiente, há um crescente interesse, tanto de consumidores quanto de empresas, em tecnologias ambientalmente amigáveis. Dado este cenário, os carros elétricos vêm recebendo uma favorável demanda no mercado brasileiro pelos “Early adopters ” (pessoas mais dispostas a usarem novas tecnologias), apesar do elevado custo, pois tem zero emissão de poluentes e proporciona grande economia em relação aos veículos a combustão. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Atualmente com o aumento da comercialização de veículos elétricos no Brasil, são levantados alguns questionamentos pelos consumidores como: “Qual seria a autonomia deste modelo de carro?", “Quais locais possuem eletropostos para fazer a recarga da bateria caso necessário?”, ou até mesmo, “Qual modelo irá me trazer o melhor custo benefício?".  
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Contudo não se encontra na internet sistemas voltados para responder tais perguntas por isso é necessária a criação de uma aplicação que forneça suporte de informações aos consumidores. 
 
 ## Objetivos
 
