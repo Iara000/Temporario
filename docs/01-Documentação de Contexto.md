@@ -11,12 +11,20 @@ Contudo não se encontra na internet sistemas voltados para responder tais pergu
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Objetivo Geral:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+ Desenvolver uma aplicação web que possibilite ao usuário uma maior autonomia em relação a veículos elétricos no mercado brasileiro.
+
+
+### Objetivos específicos:
+
+-Desenvolver um sistema capaz de cadastrar, atualizar e deletar usuários  e veículos.
+
+-Criar um mecanismo capaz de calcular e comparar o consumo de veículos a combustão e elétricos.
+
+-Listar postos de abastecimentos próximos de acordo com a localização do usuário.
+
+-Listar veículos elétricos e a combustão disponíveis no mercado brasileiro.
 
 ## Justificativa
 
