@@ -111,10 +111,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
