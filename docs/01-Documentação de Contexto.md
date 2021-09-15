@@ -36,8 +36,9 @@ O sistema tem por foco, portanto, auxiliar na tomada de decisão em adquirir um 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Considerando que os veículos elétricos tem um custo alto, o público-alvo será pessoas da classe média alta.
+
+Pessoas com ensino superior completo, emprego estável e uma carreira já definida, de 35 a 60 anos, com renda mensal acima de R$ 8 mil mensal, moradores da região sudeste e que são apaixonados por inovação tecnologicas ou preocupados com o meio ambiente.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
