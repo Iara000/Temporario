@@ -20,12 +20,11 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Ao observar a lacuna existente nas ferramentas disponíveis no mercado para dar suporte ao processo de compra de veículos elétricos, bem como o investimento inicial para adquirir essa tecnologia ser alto, torna-se viável a criação de um sistema, neste especificamente, web para auxiliar de forma clara e objetiva os futuros compradores.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Além dessas lacunas que geraram a possibilidade da criação deste projeto, existe a motivação interna do grupo que busca fazer a diferença para o futuro da tecnologia, que conta com membros apaixonados pela inovação e, acima de tudo, preocupados com o meio ambiente.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O sistema tem por foco, portanto, auxiliar na tomada de decisão em adquirir um veículo elétrico com base em autonomia e custo. Como um incentivo a mais, observou-se que este sistema é pioneiro ao abordar uma ferramenta com vastas opções de expansão, como: comparativo entre veículos, históricos, consultar pontos de abastecimento, entre outros.
 
 ## Público-Alvo
 
