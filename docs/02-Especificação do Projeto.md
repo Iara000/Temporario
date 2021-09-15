@@ -1,10 +1,10 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+Devido à preocupação com o meio ambiente e, principalmente, ao constante aumento dos gastos que um veículo a combustão gera para os usuários, o uso e a procura por veículos elétricos vem aumentando gradativamente. Portanto, cresce também a necessidade de auxiliar os consumidores durante o processo de escolha do produto, garantindo uma maior confiabilidade em seu investimento.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Durante a especificação desse projeto serão definidos: as personas, as histórias de usuários, os requisitos funcionais e não funcionais e as suas restrições.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Para a criação das personas foi considerado o perfil do público-alvo (definido na documentação de contexto). Já as histórias de usuários são definidas a partir dos requisitos funcionais, exemplificando o que cada stakeholder (administrador, usuário) pode realizar no sistema e o motivo para o qual cada funcionalidade existe.
 
 ## Personas
 
