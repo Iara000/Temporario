@@ -115,11 +115,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |-----|-----------------------------------------|----|
-|RF-001| Cada campo do formulário deve validar o tipo de dado | ALTA |
-|RF-002| Permitir que o usuário escolha o modelo do veículo entre as opções cadastradas | ALTA |
-|RF-003| Ao final do cálculo, oferecer opção para o usuário compartilhar o resultado | BAIXA |
+|RF-001| Cada campo do formulário deve ser validado quanto ao tipo de dado (inteiro/real/caractere) | ALTA |
+|RF-002| Permitir que o usuário escolha o modelo do veículo (elétricos e a combustão) entre as opções cadastradas | ALTA |
+|RF-003| Ao final do cálculo, oferecer opção para o usuário compartilhar o resultado nas redes sociais | BAIXA |
 |RF-004| Permitir que o administrador efetue Logoff no sistema | ALTA |
-|RF-005| Permitir que o administrador realize o cadastro de veículos | ALTA |
+|RF-005| Permitir que o administrador realize o cadastro de veículos (elétricos e a combustão) | ALTA |
 |RF-006| Permitir que o administrador realize o cadastro de usuários | ALTA |
 |RF-007| Permitir que o administrador efetue Logon no sistema | ALTA |
 |RF-008| Realizar os cálculos necessários para comparação da autonomia e custo beneficio entre carros elétricos x combustão | ALTA |
