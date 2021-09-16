@@ -76,11 +76,3 @@ Isto reforça o desafio de desenvolver uma aplicação para suporte ao processo 
 Considerando que os veículos elétricos tem um custo alto, o público-alvo será pessoas da classe média alta.
 
 Pessoas com ensino superior completo, emprego estável e uma carreira já definida, de 35 a 60 anos, com renda mensal acima de R$ 8 mil mensal, moradores da região sudeste e que são apaixonados por inovação tecnologicas ou preocupados com o meio ambiente.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
