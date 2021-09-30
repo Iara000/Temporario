@@ -1,35 +1,56 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](img/userflow_projeto.jpg)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
+A partir da tela de início (Home) da aplicação, o usuário poderá seguir para a página de Calculadora que possui três opçôes; para a página Curiosidades que possui informações da área; para a página Lista de carros elétricos que exibe os carros elétricos disponíveis no sistema e no Brasil; para a página pontos de eletropostos que permite pesquisa de pontos próximos e por último a página do Glossário que tem o siginificado de alguns termos da área. Para administração, a partir da tela de início, poderá acessar as telas de cadastro, edição e exclusão de administradores, carros elétricos e carros a combustão.
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+A seguir, encontram-se os protótipos utilizados para o desenvolvimento das interfaces de usuários da aplicação.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+<kbd> <img alt="Index" src="img/p1.jpg" /> </kbd>
+
+<kbd> <img alt="Calculadora - Página inicial" src="img/p3.jpg" /> </kbd>
+
+<kbd> <img alt="Calculadora - Personalizado - Escolha" src="img/p3-1.jpg" /> </kbd>
+
+<kbd> <img alt="Calculadora - Personalizado - Escolha - Resultado" src="img/p3-1-2.jpg" /> </kbd>
+
+<kbd> <img alt="Calculadora - Veículos cadastrados - Escolha" src="img/p3-2.jpg" /> </kbd>
+
+<kbd> <img alt="Calculadora - Veículos cadastrados - Escolha - Verifica Escolha" src="img/p3-2-1.jpg" /> </kbd>
+
+<kbd> <img alt="Calculadora - Veículos cadastrados - Escolha - Verifica Escolha - Resultado" src="img/p3-2-2.jpg" /> </kbd>
+
+<kbd> <img alt="Calculadora - Meu veículo vs Elétrico - Escolha" src="img/p3-3.jpg" /> </kbd>
+
+<kbd> <img alt="Calculadora - Meu veículo vs Elétrico - Escolha - Verifica Escolha" src="img/p3-3-1.jpg" /> </kbd>
+
+<kbd> <img alt="Calculadora - Meu veículo vs Elétrico - Escolha - Verifica Escolha - Resultado" src="img/p3-3-2.jpg" /> </kbd>
+
+<kbd> <img alt="Curiosidades" src="img/p4.jpg" /> </kbd>
+
+<kbd> <img alt="Veículos elétricos cadastrados" src="img/p5.jpg" /> </kbd>
+
+<kbd> <img alt="Pontos de Eletropostos" src="img/p6.jpg" /> </kbd>
+
+<kbd> <img alt="Glossario" src="img/p7.jpg" /> </kbd>
+
+<kbd> <img alt="Login Administrador" src="img/p2.jpg" /> </kbd>
+
+<kbd> <img alt="Administrador - Cadastro" src="img/p2-1.jpg" /> </kbd>
+
+<kbd> <img alt="Administrador - Editar e Excluir" src="img/p2-1-1.jpg" /> </kbd>
+
+<kbd> <img alt="Carros Elétricos - Cadastro" src="img/p2-2.jpg" /> </kbd>
+
+<kbd> <img alt="Carros Elétricos - Editar e Excluir" src="img/p2-2-1.jpg" /> </kbd>
+
+<kbd> <img alt="Carros a Combustão - Cadastro" src="img/p2-3.jpg" /> </kbd>
+
+<kbd> <img alt="Carros a Combustão - Editar e Excluir" src="img/p2-3-1.jpg" /> </kbd>
