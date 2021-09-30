@@ -1,9 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Para o desenvolvimento do projeto, decidimos utilizar o SCRUM. A metodologia Scrum foi desenvolvida buscando promover maneiras de alcançar ótimos resultados de produtividade através do gerenciamento de tarefas e projetos. Esse método tem ajudado equipes de empresas diversas a realizarem projetos de maneira fluida, dinâmica e rápida.
 
 ## Controle de Versão
 
@@ -26,52 +24,59 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+Regras:
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+* <a href="./policies/commits.md">Politica de Commits</a>
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A divisão de papéis entre os membros do grupo ficou definido da seguinte maneira.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- `Product Owner`: Nathália Valentim
+- `Scrum Master`: Tulio Teodoro
+- `Equipe / Time de Desenvolvimento `: Dione Pereira, Iara Camargo, Gustavo Henrique, Tulio Teodoro e Yuri Ribeiro
 
 ### Processo
+Segue abaixo.
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+#### Product backlog
+O lugar em que o P.O. escreve tudo o que será necessário ter naquele projeto para que ele seja executado e organizado de acordo com a prioridade.
+
+#### Sprint
+O tempo para entregar valor para o cliente.
+
+Como o Scrum preza a entrega por meio de fragmentos, as Sprints irão durar 7 dias.
+
+#### Planning
+Reunião que abre toda sprint. Nela, o Product Owner mostra o Product Backlog para a equipe e é discutido o que será feito na sprint iniciada.
+Está reunião irá ocorrer toda terça-feira as 20:30 horas.
+
+#### Daily
+Reuniões que acontecem diariamente e, idealmente, não devem ultrapassar 15 minutos de duração. Elas são importantes para manter a comunicação e transparência entre o time, já que a metodologia Scrum não trabalha com a delegação de tarefas e, sim, com iniciativas.
+
+A Daily irá ocorrer diariamente as 19:30 horas.
+
+#### Sprint backlog
+A cada Sprint, um subconjunto prioritário do Backlog é separado para ser feito pela equipe. Esse subconjunto é chamado de Sprint Backlog e nele é decidido o que será feito na próxima Sprint.
+
+#### Review
+Ao final de cada Sprint, é feita uma reunião com o time e o cliente para mostrar os resultados alcançados até então. A review é extremamente importante, pois é nela que alinhamos as necessidades do cliente com o que está sendo produzido e, se houve erros ou mudanças no projeto, todos ficam cientes.
+
+#### Retrospectiva
+Após as reviews, são feitas reuniões de retrospectiva em que somente o time participa. Nessas reuniões são tratados assuntos da equipe para descobrir se todos estão satisfeitos com o trabalho, se há sugestões de melhoria e descobrir o grau de satisfação da equipe.
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código: Microsoft Visual Studio Code
+- Ferramentas de comunicação: Microsoft Teams e WhatsApp
+- Ferramentas de desenho de tela: Figma
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
+grande popularidade e fácil uso. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
