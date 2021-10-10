@@ -1,77 +1,58 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ## Diagrama de componentes
 
 Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
 
-Exemplo: 
+Os componentes que fazem parte da solução são apresentados na figura abaixo:
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
-
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+![Diagrama de Componentes](img/diagramaComponentes.jpg)
+<center>Figura acima - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
+  - **Página Web/SPA** - A aplicação será gerada por meio da biblioteca React.js, que é implementada com o Javascript, CSS e HTML e executada em um navegador. 
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
-
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
-
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
+A imagem a seguir ilustra a o fluxo do usuário em nossa solução para a feature Calculadora. Assim
 que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+(Tela 1) onde é exposto algumas features sendo a Calculadora uma opção com três pontos de partida.
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
+O usuário pode optar por qualquer um dos três pontos da feature Calculadora na Tela 1 que o levará para a apresentação inicial com informações/orientações iniciais (Tela 2).
 
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
+Na Tela 2, no menu lateral, o usuário escolhendo a opção "Personalizado", uma tela aparecerá (Tela 3) com as opções para inserir as informações conforme orientações (ícones de interrogação ao lado de cada campo). Após completar os campos e clicar em "Calcular" ira para a príxima etapa (Tela 4).
 
-![Exemplo de UserFlow](img/userflow.jpg)
+Na Tela 4, será apresentado o resultado baseado nas informações inseridas.
+
+![Exemplo de UserFlow](img/diagramaSolucao.jpg)
 
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+#### React
+Para representarmos a camada de contato com o usuário, decidimos usar a biblioteca <a href="https://pt-br.reactjs.org/docs/getting-started.html">ReactJS</a> como front-end do projeto, realizando a parte onde se tem a interação do usuário com a página. Essa biblioteca JavaScript torna a criação de interfaces de usuário uma tarefa fácil, renderizando de forma eficiente apenas os componentes necessários, caso os dados mudem.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Os <a href="https://pt-br.reactjs.org/docs/react-component.html">componentes</a> são a base do ReactJS, são como elementos HTML personalizados, reutilizáveis, permitem dividir a interface do usuário em partes independentes e pensar em cada parte isoladamente. O React também agiliza como os dados são armazenados e tratados, usando o <a href="https://pt-br.reactjs.org/docs/state-and-lifecycle.html">estado</a> e os <a href="https://pt-br.reactjs.org/docs/render-props.html">props</a>.
 
+#### Outras tecnologias
+
+Ide
+- **Visual studio code**
+
+Ferramentas
+- **Figma**
+
+Linguagem
+- **Javascript**
+- **JSX**
+
+Bibliotecas
+- **ReactJS**
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+- **Heroku**
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+O Heroku utiliza o Git para realizar o deploy dos app.
