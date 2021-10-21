@@ -26,8 +26,8 @@ etiquetas:
 
 Regras:
 
-* <a href="../policies/commits.md">Politica de Commits</a>
-* <a href="../policies/branches.md">Politica de Branches</a>
+* <a href="Politica de Branches.md">Politica de Branches</a>
+* <a href="Politica de Commits.md">Politica de Commits</a>
 
 ## Gerenciamento de Projeto
 
