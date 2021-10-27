@@ -1,0 +1,53 @@
+.titulo {
+  position: absolute;
+  width: 178px;
+  height: 24px;
+  left: 16px;
+  top: 18px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+
+  /* Dark 100% */
+  color: #1f2041;
+}
+
+.linha_titulo {
+  position: absolute;
+  width: 841px;
+  height: 1px;
+  left: 18px;
+  top: 42px;
+
+  /* Dark 10% */
+  background: rgba(31, 32, 65, 0.1);
+}
+
+.texto_informativo {
+  position: absolute;
+  width: 839px;
+  height: 154px;
+  left: 16px;
+  top: 69px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+
+  /* Dark 75% */
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.imagem img{
+  position: absolute;
+  width: 875px;
+  height: 284px;
+  left: 1px;
+  top: 325px;
+}
