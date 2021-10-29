@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+.button__calcular {
+  /* Button */
+  position: absolute;
+  width: 150px;
+  height: 44px;
+  border: hidden;
+  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+  border-radius: 22px;
+}
+
+.button__calcular:hover {
+  position: absolute;
+  width: 150px;
+  height: 44px;
+  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+  opacity: 0.5;
+  border-radius: 22px;
+}
+
+.button__voltar {
+  position: absolute;
+  width: 145.52px;
+  height: 44px;
+  border: hidden;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 22px;
+}
+
+.button__voltar:hover {
+  position: absolute;
+  width: 145.52px;
+  height: 44px;
+  background: linear-gradient(
+    180deg,
+    rgba(188, 156, 255, 0.75) 0%,
+    rgba(139, 164, 249, 0.75) 100%
+  );
+  border-radius: 22px;
+}
+
+.button__salvar {
+  position: absolute;
+  width: 139px;
+  height: 44px;
+  border: hidden;
+  background: rgba(31, 32, 65, 0.25);
+  border-radius: 22px;
+}
+
+.button__salvar:hover {
+  position: absolute;
+  width: 139px;
+  height: 44px;
+  background: rgba(31, 32, 65, 0.75);
+  border-radius: 22px;
+}
+
+.button__cancelar {
+  position: absolute;
+  width: 139px;
+  height: 44px;
+  border: hidden;
+  background: rgba(197, 36, 36, 0.5);
+  border-radius: 22px;
+}
+
+.button__cancelar:hover {
+  position: absolute;
+  width: 139px;
+  height: 44px;
+  background: rgba(197, 36, 36, 0.75);
+  border-radius: 22px;
+}
+
+.button__adicionar_imagem {
+  position: absolute;
+  width: 215px;
+  height: 44px;
+  border: hidden;
+  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+  border-radius: 22px;
+}
+
+.button__adicionar_imagem:hover {
+  position: absolute;
+  width: 215px;
+  height: 44px;
+  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+  opacity: 0.5;
+  border-radius: 22px;
+}
+
+.button__login {
+  position: absolute;
+  width: 280px;
+  height: 44px;
+  border: hidden;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 22px;
+}
+
+.button__login:hover {
+  position: absolute;
+  width: 280px;
+  height: 44px;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  opacity: 0.5;
+  border-radius: 22px;
+}
+
+.button_text__model1 {
+  /* Text */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
