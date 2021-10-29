@@ -1,11 +1,11 @@
-import { Fragment } from "react";
 import Resultado from "./components/Resultado/Resultado";
 import CardCalculadoraInfoGerais from "./components/CardCalculadoraInfoGerais/CardCalculadoraInfoGerais";
 import Sidebar from "./components/Sidebar/Sidebar";
+import { CalcPersonalizadaContextProvider } from "./context/calculadoraPersonalizada-context";
 
 function App() {
   return (
-    <Fragment>
+    <CalcPersonalizadaContextProvider>
       <Sidebar 
         title="Calculadora" 
         subtitle="Opções" 
@@ -17,7 +17,7 @@ function App() {
       />
       <Resultado />
       <CardCalculadoraInfoGerais />
-    </Fragment>
+    </CalcPersonalizadaContextProvider>
   );
 }
 

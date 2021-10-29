@@ -1,7 +1,11 @@
 import classes from './Resultado.module.css';
 import CardCalculadora from '../CardCalculadora/CardCalculadora';
+import { useContext } from 'react';
+import CalcPersonalizadaContext from '../../context/calculadoraPersonalizada-context';
 
 const Resultado = () => {
+    const ctx = useContext(CalcPersonalizadaContext);
+    console.log(ctx.results)
     return(
         <CardCalculadora>
             <h2 className={classes.title}>
