@@ -1,10 +1,9 @@
 .cardCalculadora {
-  position: absolute;
+  position: relative;
   width: 877px;
   height: 610px;
-  left: 443px;
-  top: 105px;
   background: #ffffff;
   box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
   border-radius: 4px;
+  padding: 1rem;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import CardCalculadora from "./CardCalculadora";
+import CardCalculadora from "../CardCalculadora/CardCalculadora";
 import styles from "./CardCalculadoraInfoGerais.module.css";
 
 const CardCalculadoraInfoGerais = () => {

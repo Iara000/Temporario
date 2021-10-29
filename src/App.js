@@ -1,8 +1,11 @@
+import Resultado from "./components/Resultado/Resultado";
+import CardCalculadoraInfoGerais from "./components/CardCalculadoraInfoGerais/CardCalculadoraInfoGerais";
 import Sidebar from "./components/Sidebar/Sidebar";
+import { CalcPersonalizadaContextProvider } from "./context/calculadoraPersonalizada-context";
 
 function App() {
   return (
-    <div style={{display: 'flex', justifyContent: 'space-around', height: '95vh'}}>
+    <CalcPersonalizadaContextProvider>
       <Sidebar 
         title="Calculadora" 
         subtitle="Opções" 
@@ -12,17 +15,9 @@ function App() {
           {icon: 'date_range', text: 'Meu veículo vs elétrico'}
         ]}
       />
-
-      <Sidebar 
-        title="Painel de controle" 
-        subtitle="Cadastros" 
-        content={[
-          {icon: 'date_range', text: 'Administrador'},
-          {icon: 'date_range', text: 'Carros elétricos'},
-          {icon: 'date_range', text: 'Carros a combustão'}
-        ]}
-      />
-    </div>
+      <Resultado />
+      <CardCalculadoraInfoGerais />
+    </CalcPersonalizadaContextProvider>
   );
 }
 

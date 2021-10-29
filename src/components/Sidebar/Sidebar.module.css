@@ -4,7 +4,6 @@
     background-color: #1F2041;
     padding: 2rem 0;
     border-radius: 5px;
-    font-family: 'Quicksand';
 }
 
 .title{
@@ -25,7 +24,6 @@
     font-size: .8rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    margin-left: 2rem;
 }
 
 .itemContainer{
