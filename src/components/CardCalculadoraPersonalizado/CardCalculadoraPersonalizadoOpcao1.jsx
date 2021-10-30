@@ -16,29 +16,73 @@ const CardCalculadoraPersonalizado_Opcao1 = () => {
           opcional, insira o valor dos veículos para descobrir em quantos meses
           a diferença de valor é paga com a economia de um carro elétrico!
         </div>
-
+        {/* Início do formulário */}
         <form>
           <span className={styles.frase}>
             Eu ando no meu veículo{" "}
-            <input type="text" className={styles.inputkm} /> quilômetros por dia
-            durante a semana e <input type="text" className={styles.inputkm} />{" "}
+            <input type="text" className={styles.inputkm} placeholder="Km" />{" "}
+            quilômetros por dia durante a semana e{" "}
+            <input type="text" className={styles.inputkm} placeholder="Km" />{" "}
             quilômetros por dia aos finais de semana.
           </span>
 
           <div className={styles.card_formulario}>
             <div className={styles.linha_texto}>Veículo Elétrico</div>
             <div className={styles.linha_texto}>Veículo a Combustão</div>
-            <div className={styles.linha_input}><input type="text" className={styles.input_form} /></div>
-            <div className={styles.linha_input}><input type="text" className={styles.input_form} /></div>
-            <div className={styles.linha_input}><input type="text" className={styles.input_form} /></div>
-            <div className={styles.linha_input}><input type="text" className={styles.input_form} /></div>
+            <div>
+              <input
+                type="text"
+                className={styles.input_form}
+                placeholder="Eficiência do carro elétrico (Km/Kwh)"
+              />{" "}
+              <img src="images/help_icon.png" alt="Ajuda" />
+            </div>
+            <div>
+              <input
+                type="text"
+                className={styles.input_form}
+                placeholder="Média de consumo (Km/l)"
+              />{" "}
+              <img src="images/help_icon.png" alt="Ajuda" />
+            </div>
+            <div>
+              <input
+                type="text"
+                className={styles.input_form}
+                placeholder="Valor do Kwh local"
+              />{" "}
+              <img src="images/help_icon.png" alt="Ajuda" />
+            </div>
+            <div>
+              <input
+                type="text"
+                className={styles.input_form}
+                placeholder="Valor do combustível local"
+              />{" "}
+              <img src="images/help_icon.png" alt="Ajuda" />
+            </div>
             <div className={styles.linha_texto}>Opcional</div>
             <div className={styles.linha_texto}>Opcional</div>
-            <div className={styles.linha_input}><input type="text" className={styles.input_form} /></div>
-            <div className={styles.linha_input}><input type="text" className={styles.input_form} /></div>
-            <div><Button id='calcular'>Calcular</Button></div>
+            <div>
+              <input
+                type="text"
+                className={styles.input_form}
+                placeholder="Valor do veiculo elétrico"
+              />{" "}
+              <img src="images/help_icon.png" alt="Ajuda" />
+            </div>
+            <div>
+              <input
+                type="text"
+                className={styles.input_form}
+                placeholder="Valor do veículo a combustão"
+              />{" "}
+              <img src="images/help_icon.png" alt="Ajuda" />
+            </div>
           </div>
-
+          <div className={styles.linha_button}>
+            <Button id="calcular">Calcular</Button>
+          </div>
         </form>
       </CardCalculadora>
     </div>

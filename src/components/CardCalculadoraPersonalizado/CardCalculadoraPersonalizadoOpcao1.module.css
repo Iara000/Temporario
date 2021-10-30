@@ -63,7 +63,7 @@
 }
 
 .inputkm {
-  width: 35px;
+  width: 40px;
   height: 24px;
   border-color: transparent;
   background: rgba(31, 32, 65, 0.05);
@@ -84,22 +84,29 @@
   background: rgba(83, 85, 128, 0.25);
 }
 
+.inputkm::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.25);
+}
+
 .card_formulario {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25px 80px 80px 25px 80px auto;
+  column-gap: 2px;
+  row-gap: 2px;
   position: absolute;
-  width: 774px;
+  width: 775px;
   height: 365px;
   left: 65px;
   top: 230px;
-  background: rgba(86, 88, 129, 0.25);
 }
 
 .linha_texto {
-  background: rosybrown;
-  width: 355px;
-  height: 25px;
-
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -111,11 +118,6 @@
   color: rgba(31, 32, 65, 0.75);
 }
 
-.linha_input {
-  width: 355px;
-  height: 53px;
-}
-
 .input_form {
   width: 320px;
   height: 44px;
@@ -123,4 +125,24 @@
   border: 1px solid rgba(31, 32, 65, 0.25);
   box-sizing: border-box;
   border-radius: 4px;
+}
+
+.input_form::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.linha_button {
+  position: absolute;
+  height: 50px;
+  width: 775px;
+  top: 541px;
+  left: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
