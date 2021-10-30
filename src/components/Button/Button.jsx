@@ -5,7 +5,7 @@ const Button = (props) => {
   if (props.id === "voltar") {
     return (
       <button
-        className={`${styles.button__calcular} ${styles.button_text__model1}`}
+        className={`${styles.button__voltar} ${styles.button_text__model1}`}
       >
         {props.children}
       </button>
@@ -15,7 +15,7 @@ const Button = (props) => {
   if (props.id === "calcular") {
     return (
       <button
-        className={`${styles.button__voltar} ${styles.button_text__model1}`}
+        className={`${styles.button__calcular} ${styles.button_text__model1}`}
       >
         {props.children}
       </button>
