@@ -5,6 +5,8 @@ import { CalcPersonalizadaContextProvider } from "./context/calculadoraPersonali
 
 function App() {
   return (
+    <div>
+    <CardCalculadoraInfoGerais />
     <CalcPersonalizadaContextProvider>
       <Sidebar 
         title="Calculadora" 
@@ -18,6 +20,7 @@ function App() {
       <Resultado />
       <CardCalculadoraInfoGerais />
     </CalcPersonalizadaContextProvider>
+    </div>
   );
 }
 

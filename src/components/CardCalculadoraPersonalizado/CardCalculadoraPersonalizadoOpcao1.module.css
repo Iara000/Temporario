@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+.titulo {
+  position: absolute;
+  width: 178px;
+  height: 24px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+
+  /* Dark 100% */
+  color: #1f2041;
+}
+
+.linha_titulo {
+  position: absolute;
+  width: 841px;
+  height: 1px;
+  left: 18px;
+  top: 42px;
+
+  /* Dark 10% */
+  background: rgba(31, 32, 65, 0.1);
+}
+
+.texto_informativo {
+  position: absolute;
+  width: 839px;
+  height: 79px;
+  left: 16px;
+  top: 69px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+
+  /* Dark 75% */
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.frase {
+  position: absolute;
+  width: 839px;
+  height: 21px;
+  left: 16px;
+  top: 165px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+
+  /* Dark 75% */
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.inputkm {
+  width: 40px;
+  height: 24px;
+  border-color: transparent;
+  background: rgba(31, 32, 65, 0.05);
+
+  font-family: Montserrat;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* Dark 25% */
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.inputkm:focus {
+  outline: 0;
+  background: rgba(83, 85, 128, 0.25);
+}
+
+.inputkm::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.card_formulario {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25px 80px 80px 25px 80px auto;
+  column-gap: 2px;
+  row-gap: 2px;
+  position: absolute;
+  width: 775px;
+  height: 365px;
+  left: 65px;
+  top: 230px;
+}
+
+.linha_texto {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+
+  /* Dark 75% */
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.input_form {
+  width: 320px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.input_form::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.linha_button {
+  position: absolute;
+  height: 50px;
+  width: 775px;
+  top: 541px;
+  left: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
