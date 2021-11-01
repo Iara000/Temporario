@@ -1,7 +1,7 @@
 import React from "react";
 import CardCalculadora from "../CardCalculadora/CardCalculadora";
 import Button from "../Button/Button";
-import styles from "../CardCalculadoraPersonalizado/CardCalculadoraPersonalizadoOpcao1.module.css";
+import styles from "./CardCalcCustomForm.module.css";
 
 const CardCalculadoraPersonalizado_Opcao1 = () => {
   return (
