@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+.Card{
+    font-family: Quicksand, sans-serif;
+    font-weight: bold;
+    flex: 1;
+    margin: 20px 60px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.Card:hover{
+    box-shadow: 1px 1px 10px 1px rgb(216, 212, 212);
+   } 
+
+Card .Conteudo {
+    width: max-content;
+    text-align: center;
+    
+}
+
+.Card .Footer {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 0px;
+}

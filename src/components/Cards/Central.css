@@ -1,0 +1,24 @@
+.CardCentro{
+    font-weight: bolder;
+    font-size: 20px;
+    flex: 1;
+    margin: 24px 60px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 70px;
+}
+.CardCentro:hover{
+    box-shadow: 1px 1px 10px 1px rgb(216, 212, 212);
+   } 
+
+.Txt {
+    width: 60%;
+    text-align:left;
+}
+.Img{
+    width: 40%;
+}
