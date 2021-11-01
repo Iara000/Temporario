@@ -2,13 +2,13 @@ import Resultado from "./components/Resultado/Resultado";
 import CardCalculadoraInfoGerais from "./components/CardCalculadoraInfoGerais/CardCalculadoraInfoGerais";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { CalcPersonalizadaContextProvider } from "./context/calculadoraPersonalizada-context";
-import CardCalcCustomForm from "./components/CardCalcCustom/CardCalcCustomForm";
+
 
 function App() {
   return (
     <div>
-      <CardCalcCustomForm />
-      {/* <CardCalculadoraInfoGerais />
+  
+      <CardCalculadoraInfoGerais />
       <CalcPersonalizadaContextProvider>
         <Sidebar
           title="Calculadora"
@@ -21,7 +21,7 @@ function App() {
         />
         <Resultado />
         <CardCalculadoraInfoGerais />
-      </CalcPersonalizadaContextProvider> */}
+      </CalcPersonalizadaContextProvider>
     </div>
   );
 }
