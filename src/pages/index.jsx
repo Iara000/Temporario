@@ -1,7 +1,6 @@
 import React from 'react';
-import Card from '../components/Card'
+import Card from '../components/Card';
 import Central from '../components/Card/Central';
-import Curiosidade from '../components/Card/Curiosidade';
 import Noticias from '../components/Card/Noticias';
 import './Home.css'
 
@@ -27,8 +26,10 @@ const Home = () => {
           <div className= "SegundaFila">
             <div className= "Curiosidade" >
           <Card img= 'Curiosidades' >
-           <p><Curiosidade/>
-             Veja mais</p>
+           <p>{<img src='../images/star.png'  style={{padding: ' 8px 40px'}}/>}Qual a diferença entre um carro elétrico e um híbrido?<hr/><br/>
+           {<img src='../images/star.png' style={{padding: ' 8px 40px'}}/> }Qual a diferença entre um carro elétrico e um híbrido?<hr/><br/>
+           {<img src='../images/star.png' style={{padding: ' 8px 40px'}}/> }Qual a diferença entre um carro elétrico e um híbrido?<hr/><br/>
+           Veja mais</p>
           </Card>
         </div>
         <div className= "CardLateral">
@@ -44,9 +45,9 @@ const Home = () => {
            </p>
         </Noticias>
         <Noticias titulo= 'Total de vendas anuais VE'>
-        <p><img src='../images/dados.png' height='40' style={{padding: '20px'}}/>
-        <img src='../images/grafico-escuro.png' height='70' width='34'style={{padding: ' 0px 10px'}}/>
-        <img src='../images/grafico-claro.png' height='90' width='32'/>
+        <p><img src='../images/dados.png' height='40'/>
+        <img src='../images/grafico-escuro.png' height='70' width='37'style={{margin: '0px 5px'}}/>
+        <img src='../images/grafico-claro.png' height='90' width='34' style={{margin: '20px 0px 40px'}}/>
         </p>
         </Noticias>
         </div>
