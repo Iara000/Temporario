@@ -1,0 +1,18 @@
+.PrimeiraFila{
+    display: flex;
+}
+   
+
+.SegundaFila{
+    display: flex
+}
+
+
+.Curiosidade{
+    width: 900px
+
+}
+
+.CardLateral{
+    width: 450px;
+}
