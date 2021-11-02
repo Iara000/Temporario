@@ -7,8 +7,6 @@ import { CalcPersonalizadaContextProvider } from "../context/calculadoraPersonal
 const Calculadora = () => {
   return (
     <div>
-    <CardCalculadoraInfoGerais />
-    <CalcPersonalizadaContextProvider>
       <Sidebar 
         title="Calculadora" 
         subtitle="Opções" 
@@ -18,8 +16,9 @@ const Calculadora = () => {
           {icon: 'date_range', text: 'Meu veículo vs elétrico'}
         ]}
       />
+    <CardCalculadoraInfoGerais />
+    <CalcPersonalizadaContextProvider>
       <Resultado/>
-      <CardCalculadoraInfoGerais />
     </CalcPersonalizadaContextProvider>
     </div>
   );
