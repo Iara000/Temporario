@@ -23,6 +23,10 @@ cursor: pointer;
 &:hover {
     color: #000;
 }
+
+&.active{
+    color: #000
+}
 `
 export const Bars = styled(FaBars)`
  display: none;

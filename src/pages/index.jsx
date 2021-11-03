@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../components/Card';
 import Central from '../components/Card/Central';
+import Curiosidades from '../components/Card/Curiosidades';
 import Noticias from '../components/Card/Noticias';
 import './Home.css';
 
@@ -26,10 +27,10 @@ const Home = () => {
           <div className= "SegundaFila">
             <div className= "Curiosidade" > 
           <Card img= 'Curiosidades' >
-           <p>{<img src='../images/star.png'  style={{padding: ' 8px 40px'}}/>}Qual a diferença entre um carro elétrico e um híbrido?<hr/><br/>
-           {<img src='../images/star.png' style={{padding: ' 8px 67px 8px 0px'}}/> }A manutenção do carro elétrico é mais cara?<hr/><br/>
-           {<img src='../images/star.png' style={{padding: ' 8px  67px 8px 67px'}}/> }Carro elétrico pode ir ao lava-rápido ou tomar chuva?<hr/><br/>
-           Veja mais</p>
+           <p><Curiosidades/><hr/><br/>
+              <Curiosidades/><hr/><br/>
+              <Curiosidades/><hr/><br/>
+              Veja mais</p>
           </Card>
         </div>
         <div className= "CardLateral">
