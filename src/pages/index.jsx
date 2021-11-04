@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Card from '../components/Card';
 import Central from '../components/Card/Central';
 import Curiosidades from '../components/Card/Curiosidades';
@@ -25,14 +26,14 @@ const Home = () => {
           </Card>
           </div>
           <div className= "SegundaFila">
-            <div className= "Curiosidade" > 
+            <Link to= './curiosidades' className= "Curiosidade">
           <Card img= 'Curiosidades' >
            <p><Curiosidades/><hr/><br/>
               <Curiosidades/><hr/><br/>
               <Curiosidades/><hr/><br/>
               Veja mais</p>
           </Card>
-        </div>
+          </Link>
         <div className= "CardLateral">
         <Noticias titulo= 'O mais acessível e o mais caro'>
         <p><img src='../images/jac.png' height='30'/>JAC E-JS1 

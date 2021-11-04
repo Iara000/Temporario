@@ -9,8 +9,13 @@
 
 
 .Curiosidade{
-    width: 900px
+    width: 900px;
+    text-decoration: none;
+    color: black;
 
+}
+.Curiosidade:hover{
+    color: black;
 }
 
 .CardLateral{
