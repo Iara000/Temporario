@@ -9,11 +9,13 @@ import './Home.css';
 const Home = () => {
     return (
         <>
+        <Link to= './calculadora' className= 'Link'>
         <Central text= {<p><font size= '+6'>Calcule a economia<br/> de um veículo <br/>elétrico</font><br/><br/><small>Carros elétricos costumam ser mais econômicos 
         que carros a gasolina,etanol ou diesel, mas quanto mais econômicos? <br/><br/>Use a calculadora e altere os valores sugeridos para 
         descobrir os benefícios oferecidos ao trocar seu carro a combustão por um veículo elétrico.</small></p>}>
           <p><img src='../images/carro azul.png' /></p>
         </Central>
+        </Link>
         <div className= 'PrimeiraFila' >
           <Card  img= {<img src='../images/economi 1.png'  /> }>
            <p>Utilize a calculadora e descubra o quanto pode economizar!</p>

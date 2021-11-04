@@ -21,3 +21,10 @@
 .CardLateral{
     width: 450px;
 }
+.Link{
+    text-decoration: none;
+    color: black;
+}
+.Link:hover{
+    color: black;
+}
