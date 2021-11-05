@@ -4,7 +4,9 @@
    
 
 .SegundaFila{
-    display: flex
+    display: flex;
+    width: 350px;
+    height: 300px;
 }
 
 

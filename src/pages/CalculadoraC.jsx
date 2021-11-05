@@ -2,11 +2,11 @@ import React from 'react'
 import Sidebar from '../components/Sidebar/Sidebar'
 import { CalcPersonalizadaContextProvider } from '../context/calculadoraPersonalizada-context';
 import CardCalcCustomForm from '../components/CardCalcCustom/CardCalcCustomForm'
+import CardCalculadora from '../components/CardCalculadora/CardCalculadora';
 
 
-const Calculadora1 = () => {
+const CalculadoraV = () => {
   return (
-    <CalcPersonalizadaContextProvider>
     <div style={{display: 'flex'}}>
     <Sidebar 
         title="Calculadora" 
@@ -16,9 +16,8 @@ const Calculadora1 = () => {
         {icon: 'date_range', text: 'Meu veículo vs elétrico', path: './vseletrico'}
         ]}
       />
-      <CardCalcCustomForm/>
+      <CardCalculadora/>
       </div>
-    </CalcPersonalizadaContextProvider>
   );
 }
-export default Calculadora1;
+export default CalculadoraV;

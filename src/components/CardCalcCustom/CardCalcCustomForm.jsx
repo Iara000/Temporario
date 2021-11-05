@@ -2,6 +2,7 @@ import React from "react";
 import CardCalculadora from "../CardCalculadora/CardCalculadora";
 import Button from "../Button/Button";
 import styles from "./CardCalcCustomForm.module.css";
+import Ajuda from "../Ajuda";
 
 const CardCalcCustomForm = () => {
   return (
@@ -35,7 +36,7 @@ const CardCalcCustomForm = () => {
                 className={styles.input_form}
                 placeholder="Eficiência do carro elétrico (Km/Kwh)"
               />{" "}
-              <img src="images/help_icon.png" alt="Ajuda" />
+              <img src="images/help_icon.png" alt="Ajuda" onClick = 'ajuda()'/><Ajuda/>
             </div>
             <div>
               <input
@@ -43,7 +44,7 @@ const CardCalcCustomForm = () => {
                 className={styles.input_form}
                 placeholder="Média de consumo (Km/l)"
               />{" "}
-              <img src="images/help_icon.png" alt="Ajuda" />
+              <img src="images/help_icon.png" alt="Ajuda" /><Ajuda/>
             </div>
             <div>
               <input
@@ -51,7 +52,7 @@ const CardCalcCustomForm = () => {
                 className={styles.input_form}
                 placeholder="Valor do Kwh local"
               />{" "}
-              <img src="images/help_icon.png" alt="Ajuda" />
+              <img src="images/help_icon.png" alt="Ajuda" /><Ajuda/>
             </div>
             <div>
               <input
@@ -59,7 +60,7 @@ const CardCalcCustomForm = () => {
                 className={styles.input_form}
                 placeholder="Valor do combustível local"
               />{" "}
-              <img src="images/help_icon.png" alt="Ajuda" />
+              <img src="images/help_icon.png" alt="Ajuda" /><Ajuda/>
             </div>
             <div className={styles.linha_texto}>Opcional</div>
             <div className={styles.linha_texto}>Opcional</div>
