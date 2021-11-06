@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import CardCalculadora from "../CardCalculadora/CardCalculadora";
 import Button from "../Button/Button";
 import styles from "./CardCalcCustomForm.module.css";
-import Ajuda from "../Ajuda";
+import CalcPersonalizadaContext from "../../context/calculadoraPersonalizada-context";
+import Input from "../Input/Input";
 
 const CardCalcCustomForm = () => {
+  const ctx = useContext(CalcPersonalizadaContext);
+
   return (
     <div>
       <CardCalculadora>
@@ -21,66 +24,55 @@ const CardCalcCustomForm = () => {
         <form>
           <span className={styles.frase}>
             Eu ando no meu veículo{" "}
-            <input type="text" className={styles.inputkm} placeholder="Km" />{" "}
+            <Input type="km" placeholder="Km" />
             quilômetros por dia durante a semana e{" "}
-            <input type="text" className={styles.inputkm} placeholder="Km" />{" "}
+            <Input type="km" placeholder="Km" />
             quilômetros por dia aos finais de semana.
           </span>
 
           <div className={styles.card_formulario}>
-            <div className={styles.linha_texto}>Veículo Elétrico</div>
-            <div className={styles.linha_texto}>Veículo a Combustão</div>
-            <div>
-              <input
-                type="text"
-                className={styles.input_form}
-                placeholder="Eficiência do carro elétrico (Km/Kwh)"
-              />{" "}
-              <img src="images/help_icon.png" alt="Ajuda" onClick = 'ajuda()'/><Ajuda/>
-            </div>
-            <div>
-              <input
-                type="text"
-                className={styles.input_form}
-                placeholder="Média de consumo (Km/l)"
-              />{" "}
-              <img src="images/help_icon.png" alt="Ajuda" /><Ajuda/>
-            </div>
-            <div>
-              <input
-                type="text"
-                className={styles.input_form}
+            <div className={styles.veiculoContainer}>
+              <div className={styles.linha_texto}>Veículo Elétrico</div>
+              <Input 
+                type="number" 
+                placeholder="Eficiência do carro elétrico (Km/Kwh)" 
+                textHelp= "É o cálculo da autonomia / capacidade da bateria.*"
+                subtextHelp="*Dados informados pelo fabricante."
+              />
+              <Input 
+                type="number" 
                 placeholder="Valor do Kwh local"
-              />{" "}
-              <img src="images/help_icon.png" alt="Ajuda" /><Ajuda/>
-            </div>
-            <div>
-              <input
-                type="text"
-                className={styles.input_form}
-                placeholder="Valor do combustível local"
-              />{" "}
-              <img src="images/help_icon.png" alt="Ajuda" /><Ajuda/>
-            </div>
-            <div className={styles.linha_texto}>Opcional</div>
-            <div className={styles.linha_texto}>Opcional</div>
-            <div>
-              <input
-                type="text"
-                className={styles.input_form}
+                textHelp="Esse dado é encontrado na conta de energia elétrica da sua residência." 
+              />
+              <p className={styles.linha_textoOpcional}>Opcional</p>
+              <Input 
+                type="number" 
                 placeholder="Valor do veiculo elétrico"
-              />{" "}
-              <img src="images/help_icon.png" alt="Ajuda" />
+                textHelp="Valor médio do veículo, FIPE ou informado pelo fabricante."
+              />
             </div>
-            <div>
-              <input
-                type="text"
-                className={styles.input_form}
+
+            <div className={styles.veiculoContainer}>
+              <div className={styles.linha_texto}>Veículo a Combustão</div>
+              <Input 
+                type="number" 
+                placeholder="Média de consumo (Km/l)" 
+                textHelp="É o calculo de km rodados / litros que são necessários para encher o tanque do veículo novamente"
+              />
+              <Input 
+                type="number" 
+                placeholder="Valor do combustível local"
+                textHelp="Valor do combustível nos postos de sua região."
+              />
+              <p className={styles.linha_textoOpcional}>Opcional</p>
+              <Input 
+                type="number" 
                 placeholder="Valor do veículo a combustão"
-              />{" "}
-              <img src="images/help_icon.png" alt="Ajuda" />
+                textHelp="Valor médio do veículo, FIPE ou informado pelo fabricante."
+              />
             </div>
           </div>
+
           <div className={styles.linha_button}>
             <Button id="calcular">Calcular</Button>
           </div>
