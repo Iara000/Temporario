@@ -28,15 +28,10 @@ const Home = () => {
           </Card>
           </div>
           <div className= "SegundaFila">
-            <Link to= './curiosidades' className= "Curiosidade">
-          <Card img= 'Curiosidades' >
-           <p><Curiosidades/><hr/><br/>
-              <Curiosidades/><hr/><br/>
-              <Curiosidades/><hr/><br/>
-              Veja mais</p>
-          </Card>
+          <Link to= './curiosidades' className= "Curiosidade">
+          <Curiosidades/>
           </Link>
-        <div className= "CardLateral">
+       <div className= "CardLateral" >
         <Noticias titulo= 'O mais acessível e o mais caro'>
         <p><img src='../images/jac.png' height='30'/>JAC E-JS1 
            <br/>
@@ -55,6 +50,7 @@ const Home = () => {
         </p>
         </Noticias>
         </div>
+    
         </div>
         </>
     )

@@ -1,11 +1,11 @@
 import React from 'react'
-import Noticias from '../components/Card/Noticias';
+import './Curiosidade.css'
 
 const Curiosidades = () => {
     return (
-        <>
-         <Noticias titulo= {<font size='+2'><b>Carro elétrico: 6 dúvidas muito comuns que todo mundo tem sobre ele</b></font>}>
-          <ol>
+        <div className= 'painel'>
+         <h1 className= 'titulo'>{<font size='+2'><b>Carro elétrico: 6 dúvidas muito comuns que todo mundo tem sobre ele</b></font>}</h1>
+          <ol className= 'lista'>
              <br/><br/>
               <li> <b>Qual a diferença entre um carro elétrico e um híbrido?</b> <br/><br/>
               O carro elétrico, como o nome já diz, é movido apenas por eletricidade. Ele pode ter um ou mais motores, 
@@ -50,8 +50,8 @@ const Curiosidades = () => {
               o motorista deve chamar socorro para rebocar ou recarregar o veículo.
               </li>
           </ol>
-                  </Noticias>
-</>
+                  
+</div>
     )
 }
 

@@ -1,31 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
-.Card{
-    font-family: Monteserrat, sans-serif;
+.card{
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
-    margin: 0px 50px 40px 50px;
+    font-size: 14px;
     border: none;
     border-radius: 4px;
     overflow: hidden;
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
     cursor: pointer;
-    width: 450px;
-    height: 300px;
+    position: absolute;
+    width: 797px;
+    height: 460px;
+    margin: 0px 0px 0px 50px;
+    padding: 42.18px 86.11px 10px 86.11px;
 }
-.Card:hover{
+.card:hover{
     box-shadow: 1px 1px 10px 1px rgb(216, 212, 212);
    } 
 
-.Conteudo {
-    width: max-content;
-    text-align: center;
-    background-color: #fff;
-    
+.titulo{
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 20px;
 }
-
-.Footer {
-    background-color: #fff;
-    color: #000;
-    padding: 10px 0px;
+.footer{
+    padding-top: 10px;
+    text-align: right;
 }
