@@ -7,39 +7,20 @@ import {MdOutlineCopyright} from 'react-icons/md'
 
 export const FooterContainer = styled.footer `
  background-color: #fff;
- width: 100%;
+ width: 1440px;
+ height: 300px;
+ left: 0px;
+ top: 1800px;
  bottom: 0;
-`
+ padding: 50px 94px;
+ display: flex;
+ position: absolute;
 
+`
 export const FooterWrap = styled.div `
-background-color: #fff;
- padding: 50px 50px;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- max-width: 1100px;
- margin: 0 auto;
-`
-
-export const FooterLinksContainer = styled.div `
-background-color: #fff; 
-display: flex;
- justify-content: center;
-
- @media screen and (max-width: 820px) {
-     padding-top: 32px;
- }
-`
-
-export const FooterLinksWrapper = styled.div `
- display: flex;
- background-color: #fff;
-
- @media screen and (max-width: 820px) {
-    flex-direction: column;
- }
-`
+  display: flex;
+  padding: 0px 238px
+  `
 
 export const FooterLinkItems = styled.div `
 background-color: #fff;
@@ -48,19 +29,14 @@ background-color: #fff;
  align-items: flex-start;
  margin: 16px;
  text-align: left;
- width: 160px;
+ width: 216px;
  box-sizing: border-box;
  color: #000;
 
- @media screen and (max-widht: 420px) {
-     mergin: 0;
-     padding: 10px;
-     width: 100%;
- }
 `
 export const FooterLinkTitle = styled.h1 `
 background-color: #fff; 
-font-size: 14px;
+font-size: 16px;
  margin-bottom: 16px;
 `
 

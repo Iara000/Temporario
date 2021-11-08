@@ -6,9 +6,11 @@ import {FaBars} from 'react-icons/fa'
 export const Nav = styled.nav `
 background-color: #fff;
 height: 60px;
+width: 100%;
 display: flex;
 justify-content: space-between;
-padding: 0.2rem calc((100vw - 1000px) / 2);
+// padding: 0.2rem calc((100vw - 1000px) / 2);
+padding: 0.2rem 2rem;
 `
 export const NavLink = styled(Link)`
 background-color: #fff;
@@ -61,8 +63,8 @@ background-color: #fff;
 export const NavLogo = styled.h1 `
 background-color: #fff;
 color: #000;
- font-weight: bolder;
- font-size: 20px;
- padding-left: 10px;
- 
+font-weight: bolder;
+font-size: 20px;
+padding-left: 10px;
+margin-bottom: 0;
 `

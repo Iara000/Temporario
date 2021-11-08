@@ -1,13 +1,14 @@
 import React from 'react'
-import CardCalculadoraInfoGerais from '../components/CardCalculadoraInfoGerais/CardCalculadoraInfoGerais';
 import Sidebar from '../components/Sidebar/Sidebar'
 import { CalcPersonalizadaContextProvider } from '../context/calculadoraPersonalizada-context';
+import CardCalcCustomForm from '../components/CardCalcCustom/CardCalcCustomForm'
 
-const Calculadora = () => {
+
+const Calculadora1 = () => {
   return (
     <CalcPersonalizadaContextProvider>
     <div style={{display: 'flex'}}>
-      <Sidebar 
+    <Sidebar 
         title="Calculadora" 
         subtitle="Opções" 
        content={[ {icon: 'account_box', text: 'Personalizado', path: './personalizado'},
@@ -15,10 +16,9 @@ const Calculadora = () => {
         {icon: 'date_range', text: 'Meu veículo vs elétrico', path: './vseletrico'}
         ]}
       />
-      <CardCalculadoraInfoGerais />
+      <CardCalcCustomForm/>
       </div>
     </CalcPersonalizadaContextProvider>
   );
 }
-
-export default Calculadora
+export default Calculadora1;
