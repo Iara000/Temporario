@@ -7,9 +7,9 @@ import Resultado from '../components/Resultado/Resultado'
 
 const CalculadoraP = () => {
     return (
-      <CalcPersonalizadaContextProvider>
       <div style={{display: 'flex'}}>
-      <Sidebar 
+      <CalcPersonalizadaContextProvider>
+      <Sidebar
         title="Calculadora" 
         subtitle="Opções" 
        content={[ {icon: 'account_box', text: 'Personalizado', path: './personalizado'},
@@ -21,8 +21,8 @@ const CalculadoraP = () => {
         <CardCalcCustomInfo/>
         <Resultado/>
         </div>
-        </div>
       </CalcPersonalizadaContextProvider>
+       </div>
     );
   }
   export default CalculadoraP

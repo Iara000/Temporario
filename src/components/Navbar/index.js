@@ -28,7 +28,7 @@ const Navbar = () => {
                     <NavLink to="/sobre-nos" activeStyle>
                         Sobre nós
                     </NavLink>
-                    <Adm/>
+                    <NavLink to= "/adm" style={{color: "black"}}><Adm/></NavLink>
                 </NavMenu>
             </Nav>
         </>

@@ -1,11 +1,10 @@
 import React from 'react'
 import CardCalculadoraInfoGerais from '../components/CardCalculadoraInfoGerais/CardCalculadoraInfoGerais';
 import Sidebar from '../components/Sidebar/Sidebar'
-import { CalcPersonalizadaContextProvider } from '../context/calculadoraPersonalizada-context';
 
 const Calculadora = () => {
   return (
-    <CalcPersonalizadaContextProvider>
+    
     <div style={{display: 'flex'}}>
       <Sidebar 
         title="Calculadora" 
@@ -17,7 +16,7 @@ const Calculadora = () => {
       />
       <CardCalculadoraInfoGerais />
       </div>
-    </CalcPersonalizadaContextProvider>
+  
   );
 }
 
