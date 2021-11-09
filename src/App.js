@@ -7,6 +7,7 @@ import Calculadora1 from './pages/Calculadora1';
 import CalculadoraV from './pages/CalculadoraC';
 import Curiosidades from './pages/Curiosidades';
 import Home from './pages/index';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

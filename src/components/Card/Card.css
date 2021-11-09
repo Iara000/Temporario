@@ -2,6 +2,14 @@
 .Card{
     font-family: Monteserrat, sans-serif;
     font-weight: bold;
+    left: 120px;
+    top: 490px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+    cursor: pointer;
+}
+    /*
     margin: 0px 50px 40px 50px;
     border: none;
     border-radius: 4px;
@@ -29,3 +37,4 @@
     color: #000;
     padding: 10px 0px;
 }
+*/

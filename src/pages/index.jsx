@@ -8,7 +8,7 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <>
+        <div className= 'body'>
         <Link to= './calculadora' className= 'Link'>
         <Central text= {<p><font size= '+4'>Calcule a economia de um veículo elétrico</font><br/><br/><small>Carros elétricos costumam ser mais econômicos 
         que carros a gasolina,etanol ou diesel, mas quanto mais econômicos? <br/><br/>Use a calculadora e altere os valores sugeridos para 
@@ -17,7 +17,8 @@ const Home = () => {
         </Central>
         </Link>
         <div className= 'PrimeiraFila' >
-          <Card  img= {<img src='../images/economi 1.png'  /> }>
+          <Card/>
+          {/*<Card  img= {<img src='../images/economi 1.png'  /> }>
            <p>Utilize a calculadora e descubra o quanto pode economizar!</p>
           </Card>
           <Card img= {< img src='../images/charging.png' /> }>
@@ -25,7 +26,7 @@ const Home = () => {
           </Card>
           <Card img= {<img src='../images/recarga.png' /> } >
             <p>Encontre um ponto de recarga!</p>
-          </Card>
+          </Card>*/}
           </div>
           <div className= "SegundaFila">
           <Link to= './curiosidades' className= "Curiosidade">
@@ -52,7 +53,7 @@ const Home = () => {
         </div>
     
         </div>
-        </>
+        </div>
     )
 }
 

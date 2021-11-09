@@ -7,19 +7,17 @@ import {MdOutlineCopyright} from 'react-icons/md'
 
 export const FooterContainer = styled.footer `
  background-color: #fff;
- width: 1440px;
  height: 300px;
+ padding: 50px 50px;
  left: 0px;
- top: 1800px;
- bottom: 0;
- padding: 50px 94px;
  display: flex;
- position: absolute;
+ bottom: 0;
+ width: 100%;
 
 `
 export const FooterWrap = styled.div `
   display: flex;
-  padding: 0px 238px
+  padding-left: 280px
   `
 
 export const FooterLinkItems = styled.div `
