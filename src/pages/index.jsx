@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import cards from '../components/Card';
 import Card from '../components/Card';
 import Central from '../components/Card/Central';
 import Curiosidades from '../components/Card/Curiosidades';
@@ -17,16 +18,15 @@ const Home = () => {
         </Central>
         </Link>
         <div className= 'PrimeiraFila' >
-          <Card/>
-          {/*<Card  img= {<img src='../images/economi 1.png'  /> }>
+           <Card img= {<img src='../images/economi 1.png'/>}>
            <p>Utilize a calculadora e descubra o quanto pode economizar!</p>
-          </Card>
-          <Card img= {< img src='../images/charging.png' /> }>
-            <p>Veja os veículos elétricos disponíveis no Brasil!</p>
-          </Card>
-          <Card img= {<img src='../images/recarga.png' /> } >
-            <p>Encontre um ponto de recarga!</p>
-          </Card>*/}
+           </Card>
+           <Card img= {<img src='../images/charging.png'/>}>
+           <p>Veja os veículos elétricos disponíveis no Brasil!</p>
+           </Card>
+           <Card img= {<img src='../images/recarga.png'/>}>
+           <p>Encontre um ponto de recarga!</p>
+           </Card>
           </div>
           <div className= "SegundaFila">
           <Link to= './curiosidades' className= "Curiosidade">
