@@ -18,9 +18,7 @@ const Home = () => {
         </Central>
         </Link>
         <div className= 'PrimeiraFila' >
-           <Card img= {<img src='../images/economi 1.png'/>}>
-           <p>Utilize a calculadora e descubra o quanto pode economizar!</p>
-           </Card>
+           <Card />
            <Card img= {<img src='../images/charging.png'/>}>
            <p>Veja os veículos elétricos disponíveis no Brasil!</p>
            </Card>
@@ -53,8 +51,8 @@ const Home = () => {
         </div>
     
         </div>
+    
         </div>
     )
 }
-
 export default Home
