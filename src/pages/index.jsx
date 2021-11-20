@@ -18,7 +18,9 @@ const Home = () => {
         </Central>
         </Link>
         <div className= 'PrimeiraFila' >
-           <Card />
+           <Card img= {<img src='../images/economi 1.png' />}>
+             <p>Utilize a calculadora e descubra o quanto pode economizar!</p>
+           </Card>
            <Card img= {<img src='../images/charging.png'/>}>
            <p>Veja os veículos elétricos disponíveis no Brasil!</p>
            </Card>
@@ -31,7 +33,7 @@ const Home = () => {
           <Curiosidades/>
           </Link>
        <div className= "CardLateral" >
-        <Noticias titulo= 'O mais acessível e o mais caro'>
+           <Noticias titulo= 'O mais acessível e o mais caro'>
         <p><img src='../images/jac.png' height='30'/>JAC E-JS1 
            <br/>
              A partir de R$ 149.900
@@ -42,7 +44,7 @@ const Home = () => {
              A partir de R$ 529.990
            </p>
         </Noticias>
-        <Noticias titulo= 'Total de vendas anuais VE'>
+        <Noticias  titulo= 'Total de vendas anuais VE' >
         <p><img src='../images/dados.png' height='40'/>
         <img src='../images/grafico-escuro.png' height='70' width='37'style={{margin: '0px 5px'}}/>
         <img src='../images/grafico-claro.png' height='90' width='34' style={{margin: '20px 0px 40px'}}/>

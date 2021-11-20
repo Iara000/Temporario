@@ -1,12 +1,14 @@
 import React from 'react'
-import './Noticias.css'
+import { Card } from 'react-bootstrap'
 
 export default props =>
-        <div className="Noticias" widht= '350px'>
-            <div className="Titulo">
-                {props.titulo}
-            </div>
-            <div className="Dados">
-                {props.children}
-            </div>
-        </div>
+<>
+<Card style={{width: ' 350px', height: ' 215px', padding: ' 0' }}>
+  <Card.Body>
+    <Card.Title>{props.titulo}</Card.Title>
+    <Card.Text>
+     {props.children}
+    </Card.Text>
+  </Card.Body>
+</Card>
+</>

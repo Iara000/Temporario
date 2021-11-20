@@ -10,7 +10,6 @@ body{
 .SegundaFila{
     display: flex;
 }
-
 .Curiosidade{
     text-decoration: none;
     color: black;
@@ -19,7 +18,6 @@ body{
 .Curiosidade:hover{
     color: black;
 }
-
 .Link{
     text-decoration: none;
     color: black;

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Curiosidades.css'
+import {Card} from 'react-bootstrap'
 
 const Curiosidades = (props) => {
     let titulos = ['Qual a diferença entre um carro elétrico e um híbrido?', 'Por que os carros elétricos são mais caros que os modelos a combustão?', 
@@ -9,20 +10,24 @@ const Curiosidades = (props) => {
 function rad(titulos) {
     return (titulos[~~(titulos.length * Math.random())]);
 }
-    return (
-        <div className= 'card'>
-            <h1 className = 'titulo'>Curiosodades</h1>
-            <div>
-            <p>{<img src='../images/star.png' style={{padding: ' 8px'}}/>}{rad(titulos)}</p>
+return (
+<>
+  <Card  className= 'card'>
+  <h1 className = 'titulo'>Curiosodades</h1>
+    <Card.Body>
+      <Card.Text>
+      <p>{<img src='../images/star.png' style={{padding: ' 8px'}}/>}{rad(titulos)}</p>
             {<img src='../images/linha.png'/>}
             <p>{<img src='../images/star.png' style={{padding: ' 8px'}}/>}{rad(titulos)}</p>
             {<img src='../images/linha.png'/>}
             <p>{<img src='../images/star.png' style={{padding: ' 8px'}}/>}{rad(titulos)}</p>
             {<img src='../images/linha.png'/>}
             <p className= 'footer'>Veja mais</p>
-            </div>
-        </div>
-    )
+      </Card.Text>
+    </Card.Body>
+  </Card>
+</>
+       
+)
 }
-
 export default Curiosidades
