@@ -2,6 +2,7 @@
 body{
     font-family: Montserrat,sans-serif;
     justify-content: center;
+    margin: 50px 50px;
 }
 .PrimeiraFila{
     display: flex;

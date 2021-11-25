@@ -4,10 +4,10 @@ import {Card}  from 'react-bootstrap'
 
  export default (props )=>
  <>
-<Card style={{ width: '450px', height: '300px', padding: '0px', margin: '50px 50px', display: 'flex'}}>
-  <div style={{ width: '100%' }}>{props.img}</div>
-  <Card.Body>
-    <Card.Text style={{ width: '100%' }}>
+<Card style={{ width: '450px', height: '300px', padding: '0px', display: 'flex'}}>
+  <div style={{ width: '100%', padding: '0' }}>{props.img}</div>
+  <Card.Body style={{ width: '100%' }}>
+    <Card.Text >
       {props.children}
     </Card.Text>
   </Card.Body>

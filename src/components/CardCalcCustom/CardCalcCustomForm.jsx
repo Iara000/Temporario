@@ -5,6 +5,7 @@ import styles from "./CardCalcCustomForm.module.css";
 import CalcPersonalizadaContext from "../../context/calculadoraPersonalizada-context";
 import Input from "../Input/Input";
 
+
 const CardCalcCustomForm = () => {
   const ctx = useContext(CalcPersonalizadaContext);
 
@@ -74,7 +75,7 @@ const CardCalcCustomForm = () => {
           </div>
 
           <div className={styles.linha_button}>
-            <Button id="calcular">Calcular</Button>
+            <Button id="calcular" onClick= 'coletar();'>Calcular</Button>
           </div>
         </form>
       </CardCalculadora>
