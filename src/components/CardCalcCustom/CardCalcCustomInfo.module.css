@@ -96,7 +96,7 @@
 .card_info {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50px auto;
+  grid-template-rows: 50px 200px;
   column-gap: 2px;
   row-gap: 2px;
   position: absolute;
@@ -131,7 +131,6 @@
 
 .linha_button {
   position: absolute;
-  height: 50px;
   width: 775px;
   top: 541px;
   left: 65px;

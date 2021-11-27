@@ -10,7 +10,7 @@ const Ajuda = props => {
         return(
                 <div className={styles.Ajuda}>
                         <img 
-                                src="images/help_icon.png" 
+                                src="/images/help_icon.png" 
                                 alt="Ajuda" 
                                 className={styles.imagem} 
                                 onMouseOver={showHelp}

@@ -19,13 +19,13 @@ const Home = () => {
         </Link>
         <div className= 'PrimeiraFila' >
            <Card img= {<img src='../images/economi 1.png' />}>
-             <p>Utilize a calculadora e descubra o quanto pode economizar!</p>
+             Utilize a calculadora e descubra o quanto pode economizar!
            </Card>
            <Card img= {<img src='../images/charging.png'/>}>
-           <p>Veja os veículos elétricos disponíveis no Brasil!</p>
+           Veja os veículos elétricos disponíveis no Brasil!
            </Card>
            <Card img= {<img src='../images/recarga.png'/>}>
-           <p>Encontre um ponto de recarga!</p>
+           Encontre um ponto de recarga!
            </Card>
           </div>
           <div className= "SegundaFila">

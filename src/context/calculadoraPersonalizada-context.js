@@ -1,112 +1,46 @@
 import React, { useState } from "react";
 
 const CalcPersonalizadaContext = React.createContext({
-    info: {
-        kmSemana: '',
-        kmFds: '',
-        eficienciaVE: '',
-        eficienciaVC: '',
-        valorKWh: '',
-        valorCombustivel: '',
-        valorVE: '',
-        valorVC: '',
-    },
-    changeKmSemana: () => {},
-    changeKmFds: () => {},
-    changeEficienciaVC: () => {},
-    changeEficienciaVE: () => {},
-    changeValorKWh: () => {},
-    changeValorCombustivel: () => {},
-    changeValorVC: () => {},
-    changeValorVE: () => {},
+    kmSemana: '',
+    kmFds: '',
+    eficienciaVE: '',
+    eficienciaVC: '',
+    valorKWh: '',
+    valorCombustivel: '',
+    valorVE: '',
+    valorVC: '',
+    changeKmSemana: (value) => {},
+    changeKmFds: (value) => {},
+    changeEficienciaVC: (value) => {},
+    changeEficienciaVE: (value) => {},
+    changeValorKWh: (value) => {},
+    changeValorCombustivel: (value) => {},
+    changeValorVC: (value) => {},
+    changeValorVE: (value) => {},
     calcularEconomia: () => {},
 })
 
 export const CalcPersonalizadaContextProvider = props => {
-    const [info, setInfo] = useState({
-        kmSemana: '',
-        kmFds: '',
-        eficienciaVE: '',
-        eficienciaVC: '',
-        valorKWh: '',
-        valorCombustivel: '',
-        valorVE: '',
-        valorVC: '',
-    });
-    const [results, setResults] = useState({
-        economiaAnual: '', 
-        kmAnual: '', 
-        consumo_kWh: '', 
-        gasto_kWh: '', 
-        consumoLitrosCombustivel: '', 
-        gastoCombustivel: '', 
-        buyback: ''
-    });
+    const data = localStorage.getItem("dados_calculadoraPersonalizada") 
+        ? JSON.parse(localStorage.getItem("dados_calculadoraPersonalizada"))
+        : "";
+    const [kmSemana, setKmSemana] = useState(data === "" ? "" : data.obj.kmSemana);
+    const [kmFds, setKmFds] = useState(data === "" ? "" : data.obj.kmFds);
+    const [eficienciaVE, setEficienciaVE] = useState(data === "" ? "" : data.obj.eficienciaVE);
+    const [eficienciaVC, setEficienciaVC] = useState(data === "" ? "" : data.obj.eficienciaVC);
+    const [valorKWh, setValorKWh] = useState(data === "" ? "" : data.obj.valorKWh);
+    const [valorCombustivel, setValorCombustivel] = useState(data === "" ? "" : data.obj.valorCombustivel);
+    const [valorVE, setValorVE] = useState(data === "" ? "" : data.obj.valorVE);
+    const [valorVC, setValorVC] = useState(data === "" ? "" : data.obj.valorVC);
 
-    const changeKmSemana = (event) => {
-        setInfo((currentState) => {
-            return {
-                kmSemana: event.target.value,
-                ...currentState
-            }
-        });
-    };
-    const changeKmFds = (event) => {
-        setInfo((currentState) => {
-            return {
-                kmFds: event.target.value,
-                ...currentState
-            }
-        });
-    };
-    const changeEficienciaVE = (event) => {
-        setInfo((currentState) => {
-            return {
-                eficienciaVE: event.target.value,
-                ...currentState
-            }
-        });
-    };
-    const changeEficienciaVC = (event) => {
-        setInfo((currentState) => {
-            return {
-                eficienciaVC: event.target.value,
-                ...currentState
-            }
-        });
-    };
-    const changeValorKWh = (event) => {
-        setInfo((currentState) => {
-            return {
-                valorKWh: event.target.value,
-                ...currentState
-            }
-        });
-    };
-    const changeValorCombustivel = (event) => {
-        setInfo((currentState) => {
-            return {
-                valorCombustivel: event.target.value,
-                ...currentState
-            }
-        });
-    };
-    const changeValorVE = (event) => {
-        setInfo((currentState) => {
-            return {
-                valorVE: event.target.value,
-                ...currentState
-            }
-        });
-    };
-    const changeValorVC = (event) => {
-        setInfo((currentState) => {
-            return {
-                valorVC: event.target.value,
-                ...currentState
-            }
-        });
-    };
+    const changeKmSemana = (value) => setKmSemana(value);
+    const changeKmFds = (value) => setKmFds(value);
+    const changeEficienciaVE = (value) => setEficienciaVE(value);
+    const changeEficienciaVC = (value) => setEficienciaVC(value);
+    const changeValorKWh = (value) => setValorKWh(value);
+    const changeValorCombustivel = (value) => setValorCombustivel(value);
+    const changeValorVE = (value) => setValorVE(value);
+    const changeValorVC = (value) => setValorVC(value);
 
 
     // Função para calculo da economia anual
@@ -119,7 +53,7 @@ export const CalcPersonalizadaContextProvider = props => {
         let buyback = calcularBuyback(gasto_kWh, gastoCombustivel);
         let economiaAnual = gastoCombustivel - gasto_kWh;
 
-        setResults({
+        return {
             kmAnual,
             gastoCombustivel,
             consumoLitrosCombustivel,
@@ -127,7 +61,7 @@ export const CalcPersonalizadaContextProvider = props => {
             consumo_kWh,
             buyback,
             economiaAnual
-        });
+        };
     }
 
     const calcularKmTotal = () => {
@@ -136,7 +70,7 @@ export const CalcPersonalizadaContextProvider = props => {
         const diasFds = 104;
 
         //Calculando quilometragem total no ano
-        let kmTotal = (info.kmSemana * diasUteis) + (info.kmFds * diasFds);
+        let kmTotal = (kmSemana * diasUteis) + (kmFds * diasFds);
 
         return kmTotal;
     }
@@ -146,10 +80,10 @@ export const CalcPersonalizadaContextProvider = props => {
         let kmAnual = calcularKmTotal();
 
         //Calculando quantidade de litros de Combustivel consumidos em um ano
-        let litrosCombustivelAnual = kmAnual/info.eficienciaVC;
+        let litrosCombustivelAnual = kmAnual/eficienciaVC;
         
         //Calculando gasto em R$ de Combustivel em um ano
-        let gastoAnualCombustivel = litrosCombustivelAnual * info.valorCombustivel;
+        let gastoAnualCombustivel = litrosCombustivelAnual * valorCombustivel;
 
         return {
             gastoAnualCombustivel,
@@ -162,10 +96,10 @@ export const CalcPersonalizadaContextProvider = props => {
         let kmAnual = calcularKmTotal();
 
         //Calculando quantidade de kWh consumidos em um ano
-        let kWhAnual = kmAnual/info.eficienciaVE;
+        let kWhAnual = kmAnual/eficienciaVE;
         
         //Calculando gasto em R$ de kWh em um ano
-        let gastoAnual_kWh = kWhAnual * info.valorKWh;
+        let gastoAnual_kWh = kWhAnual * valorKWh;
 
         return {
             gastoAnual_kWh,
@@ -175,7 +109,7 @@ export const CalcPersonalizadaContextProvider = props => {
 
     const calcularBuyback = (gasto_kWh, gastoCombustivel) => {
 
-        let diferenca = info.valorVE - info.valorVC;
+        let diferenca = valorVE - valorVC;
 
         let economiaMensal = (gastoCombustivel - gasto_kWh)/12;
 
@@ -185,7 +119,14 @@ export const CalcPersonalizadaContextProvider = props => {
     }
 
     const contextValue = {
-        info,
+        kmSemana,
+        kmFds,
+        eficienciaVE,
+        eficienciaVC,
+        valorCombustivel,
+        valorKWh,
+        valorVC,
+        valorVE,
         changeKmSemana,
         changeKmFds,
         changeEficienciaVC,
@@ -195,7 +136,6 @@ export const CalcPersonalizadaContextProvider = props => {
         changeValorVC,
         changeValorVE,
         calcularEconomia,
-        results
     };
 
     return(

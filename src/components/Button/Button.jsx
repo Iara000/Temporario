@@ -6,6 +6,7 @@ const Button = (props) => {
     return (
       <button
         className={`${styles.button__voltar} ${styles.button_text__model1}`}
+        onClick={props.onClick}
       >
         {props.children}
       </button>
@@ -16,6 +17,7 @@ const Button = (props) => {
     return (
       <button
         className={`${styles.button__calcular} ${styles.button_text__model1}`}
+        onClick={props.onClick}
       >
         {props.children}
       </button>
@@ -26,6 +28,7 @@ const Button = (props) => {
     return (
       <button
         className={`${styles.button__salvar} ${styles.button_text__model1}`}
+        onClick={props.onClick}
       >
         {props.children}
       </button>
@@ -36,6 +39,7 @@ const Button = (props) => {
     return (
       <button
         className={`${styles.button__cancelar} ${styles.button_text__model1}`}
+        onClick={props.onClick}
       >
         {props.children}
       </button>
@@ -46,6 +50,7 @@ const Button = (props) => {
     return (
       <button
         className={`${styles.button__adicionar_imagem} ${styles.button_text__model1}`}
+        onClick={props.onClick}
       >
         {props.children}
       </button>
@@ -56,6 +61,7 @@ const Button = (props) => {
     return (
       <button
         className={`${styles.button__login} ${styles.button_text__model1}`}
+        onClick={props.onClick}
       >
         {props.children}
       </button>

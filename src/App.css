@@ -6,3 +6,9 @@ body{
     padding: 0;
     
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 260px 877px;
+    grid-template-rows: 1fr 1fr;
+}
