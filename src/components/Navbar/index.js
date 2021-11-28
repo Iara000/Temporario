@@ -19,14 +19,8 @@ const Navbar = () => {
                     <NavLink to="/curiosidades" activeStyle={{ color: '#000' }}>
                         Curiosidades
                     </NavLink>
-                    <NavLink to="/pontos" activeStyle={{ color: '#000' }}>
-                        Pontos de Eletropostos
-                    </NavLink>
                     <NavLink to="/glossario" activeStyle={{ color: '#000' }}>
                         Glossário
-                    </NavLink>
-                    <NavLink to="/sobre-nos" activeStyle={{ color: '#000' }}>
-                        Sobre nós
                     </NavLink>
                     <NavLink to= "/adm" style={{color: "black"}}><Adm/></NavLink>
                 </NavMenu>
