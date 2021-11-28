@@ -41,9 +41,7 @@ const CardHomeDiversos = () => {
         </div>
 
         <div className={styles.curiosidades_vejamais}>
-          <Link to="/curiosidades" className={styles.link}>
-            Veja mais
-          </Link>
+          <Link to="/curiosidades" className={styles.link}>Veja mais</Link>
         </div>
       </div>
 
