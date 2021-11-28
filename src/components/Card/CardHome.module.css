@@ -1,0 +1,48 @@
+.card_home {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border-radius: 4px;
+}
+
+.card_home_texto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_home_texto h1 {
+  margin-top: 27px;
+  margin: 27px 0 25px 0;
+  width: 449px;
+  height: 156px;
+  font-family: Montserrat;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 51px;
+  color: #1f2041;
+}
+
+.card_home_texto p {
+  width: 449px;
+  height: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1f2041;
+  margin: 0;
+}
+
+.card_home_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}

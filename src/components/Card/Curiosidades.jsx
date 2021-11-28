@@ -16,12 +16,12 @@ return (
   <h1 className = 'titulo'>Curiosodades</h1>
     <Card.Body>
       <Card.Text>
-      <p>{<img src='../images/star.png' style={{padding: ' 8px'}}/>}{rad(titulos)}</p>
-            {<img src='../images/linha.png'/>}
-            <p>{<img src='../images/star.png' style={{padding: ' 8px'}}/>}{rad(titulos)}</p>
-            {<img src='../images/linha.png'/>}
-            <p>{<img src='../images/star.png' style={{padding: ' 8px'}}/>}{rad(titulos)}</p>
-            {<img src='../images/linha.png'/>}
+      <p>{<img src='../images/star.png' alt="Estrela" style={{padding: ' 8px'}}/>}{rad(titulos)}</p>
+            {<img src='../images/linha.png' alt="Estrela"/>}
+            <p>{<img src='../images/star.png' alt="Estrela" style={{padding: ' 8px'}}/>}{rad(titulos)}</p>
+            {<img src='../images/linha.png' alt="Estrela"/>}
+            <p>{<img src='../images/star.png' alt="Estrela" style={{padding: ' 8px'}}/>}{rad(titulos)}</p>
+            {<img src='../images/linha.png' alt="Estrela"/>}
             <p className= 'footer'>Veja mais</p>
       </Card.Text>
     </Card.Body>

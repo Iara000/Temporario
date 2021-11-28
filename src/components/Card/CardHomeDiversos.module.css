@@ -1,0 +1,277 @@
+.card_homediversos {
+  display: flex;
+  margin-top: 35px;
+  width: 100%;
+  height: 478px;
+}
+
+.card_homediversos_curiosidades {
+  display: flex;
+  flex-direction: column;
+  width: 64.5%;
+  height: 100%;
+  background: white;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border-radius: 4px;
+}
+
+.curiosidades_titulo {
+  width: 100%;
+  height: 20%;
+}
+
+.curiosidades_titulo h1 {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 100%;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1f2041;
+  margin-left: 110px;
+}
+
+.curiosidades_item {
+  display: flex;
+  width: 100%;
+  height: 20%;
+}
+
+.curiosidades_item_img {
+  display: flex;
+  height: 100%;
+  width: 30%;
+}
+
+.curiosidades_item_img img {
+  margin-left: 116px;
+  width: 44px;
+  height: 44px;
+}
+
+.curiosidades_item_info {
+  display: flex;
+  height: 100%;
+  width: 70%;
+}
+
+.curiosidades_item h3 {
+  display: flex;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.curiosidades_item p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.curiosidades_vejamais {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+
+.link {
+  width: 68px;
+  height: 20px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.75);
+  padding: 3px 0;
+  margin: 0 20px 0 0;
+}
+
+.link:hover {
+  color: rgba(31, 32, 65, 0.75);
+  border-bottom: 2.5px solid rgba(31, 32, 65, 0.75);
+}
+
+.card_homediversos_outros {
+  background: #e5e5e5;
+  width: 35.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.outros_card {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border-radius: 4px;
+  width: 350px;
+  height: 215px;
+}
+
+.item_preco_titulo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: 15%;
+}
+
+.item_preco_titulo h1 {
+  width: 100%;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1f2041;
+  margin: 0;
+}
+
+.item_preco_carro_info {
+  display: flex;
+  width: auto;
+  height: 35%;
+}
+
+.item_preco_carro_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 30%;
+}
+
+.item_preco_carro_img img {
+  width: 58px;
+  height: 38.86px;
+}
+
+.item_preco_carro_descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 70%;
+}
+
+.item_preco_carro_descricao h6 {
+  display: flex;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.item_preco_carro_descricao p {
+  display: flex;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 4px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.item_preco_fonte {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  padding-right: 10px;
+  width: auto;
+  height: 15%;
+}
+
+.item_preco_fonte p {
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.item_dados_titulo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: 15%;
+}
+
+.item_dados_titulo h1 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1f2041;
+  width: 100%;
+  margin: 0;
+}
+
+.item_dados_info {
+  display: flex;
+  height: 70%;
+}
+
+.item_dados_img_resultado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.item_dados_img_resultado img {
+  width: 115px;
+  height: 47.56px;
+}
+
+.item_dados_img_grafico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.item_dados_img_grafico img {
+  width: 114px;
+  height: 107px;
+}
+
+.item_dados_fonte {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  height: 15%;
+}
+
+.item_dados_fonte p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  margin: 0;
+  padding-right: 10px;
+}

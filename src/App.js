@@ -14,12 +14,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Alert from './components/Alert/Alert';
 import { useContext } from 'react';
 import AlertContext from './context/alert-context';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   const alertCtx = useContext(AlertContext);
 
   return (
     <Router>
+      <ScrollToTop>
       <Navbar/>
       <Switch>
         <Route path='/' exact component={Home}/>
@@ -33,6 +35,7 @@ function App() {
       </Switch>
       {alertCtx.display && <Alert />}
       <Footer/>
+      </ScrollToTop>
     </Router>
   );
 }
