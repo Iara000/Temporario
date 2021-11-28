@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink as Link } from "react-router-dom";
 import styles from "./CardHomeDiversos.module.css";
 
 const CardHomeDiversos = () => {
@@ -40,7 +41,9 @@ const CardHomeDiversos = () => {
         </div>
 
         <div className={styles.curiosidades_vejamais}>
-          <p>Veja mais</p>
+          <Link to="/curiosidades" className={styles.link}>
+            Veja mais
+          </Link>
         </div>
       </div>
 
@@ -78,7 +81,8 @@ const CardHomeDiversos = () => {
         <div className={styles.outros_card}>
           <div className={styles.item_dados_titulo}>
             <h1>
-              Total de vendas anuais VE <img src="./images/BR - Brazil.png" alt="Brasil" />
+              Total de vendas anuais VE{" "}
+              <img src="./images/BR - Brazil.png" alt="Brasil" />
             </h1>
           </div>
           <div className={styles.item_dados_info}>
