@@ -31,7 +31,6 @@ const Footer = () => {
           <FooterLinkTitle>Navegação</FooterLinkTitle>
           <FooterLink to="./calculadora">Calculadora</FooterLink>
           <FooterLink to="./curiosidades">Curiosidades</FooterLink>
-          <FooterLink to="./pontos">Pontos de Eletropostos</FooterLink>
         </FooterLinkItems>
         <FooterLinkItems>
           <FooterLinkTitle>Suporte</FooterLinkTitle>

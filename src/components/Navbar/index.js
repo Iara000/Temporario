@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavLink to="/">
-                 <img src='/logotipo.svg'  height="40"/><NavLogo>EletriCharge</NavLogo>
+                 <img src='/logotipo.svg' alt="Logotipo"  height="40"/><NavLogo>EletriCharge</NavLogo>
                 </NavLink>
                 <NavMenu>
                     <Bars/>

@@ -17,16 +17,47 @@
   border-radius: 4px;
 }
 
+.card_homeopcoes_image {
+  height: 66%;
+}
+
+.card_homeopcoes_badgeoff {
+  background: white;
+  height: 8%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.card_homeopcoes_badgeon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fed116;
+  height: 8%;
+}
+
+.card_homeopcoes_badgeon p {
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
 .card_homeopcoes_texto {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  height: 26%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .card_homeopcoes_texto p {
   width: 307px;
   height: 43px;
-  margin-top: 40px;
+  margin: 8px 0;
   font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
