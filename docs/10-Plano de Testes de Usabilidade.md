@@ -1,8 +1,6 @@
 # Plano de Testes de Usabilidade
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Relatório baseado no Plano de Testes de Software.
 
-Planejamento de realização de testes com usuários definindo as operações que os usuários devem realizar.
+<a href= "https://drive.google.com/file/d/1tP-WrCGkvrOghKAfHEGlIsZRCoLakbro/view?usp=sharing">Registro de Testes de Usabilidade</a>
 
-> **Links Úteis**:
-> - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
