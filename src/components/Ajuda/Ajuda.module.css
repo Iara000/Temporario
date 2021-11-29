@@ -1,0 +1,41 @@
+.Ajuda{
+    position: absolute;
+    top: 8px;
+    right: -60px;
+    width: 150px;
+    height: 70px;
+}
+
+.invisible{
+    display: none;
+}
+
+.texto{
+    position: absolute;
+    top: -105%;
+    right: -130px;
+    width: 200px;
+    min-height: 77px;
+    border-radius: 5px;
+    border: 2px solid #E1E1E1;
+    color: #9E9E9E;
+    background-color: #fff;
+    font-size: .85rem;
+    box-shadow: 0 5px 8px rgba(31, 32, 65, 0.25);
+    z-index: 999;
+    padding: .2rem .25rem;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.subtexto{
+    display: inline-block;
+    font-size: .7rem;
+    color: #9E9E9E;
+    margin-top: .4rem;
+}
+
+.imagem{
+    cursor: pointer;
+}

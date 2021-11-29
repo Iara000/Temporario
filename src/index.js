@@ -2,11 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'material-icons/iconfont/material-icons.css';
 import reportWebVitals from "./reportWebVitals";
+import { AlertContextProvider } from "./context/alert-context";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AlertContextProvider>
+      <App />
+    </AlertContextProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
