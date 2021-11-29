@@ -13,13 +13,15 @@ const CalculadoraP = () => {
           <Sidebar
             title="Calculadora" 
             subtitle="Opções" 
-            content={[ {icon: 'account_box', text: 'Personalizado', path: '/calculadora/personalizado'},
+            content={[ {icon: 'account_box', text: 'Personalizado', path: '/calculadora/personalizado'},]}
+            />
+            <Resultado/>
               {/* {icon: 'date_range', text: 'Veículos cadastrados', },
-  {icon: 'date_range', text: 'Meu veículo vs elétrico',}*/}
+  {icon: 'date_range', text: 'Meu veículo vs elétrico',
             ]}
           />
           <Resultado/>
-          <CardCalcCustomInfo/>
+          <CardCalcCustomInfo/>*/}
           
         </div>
       </CalcPersonalizadaContextProvider>

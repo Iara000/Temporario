@@ -4,9 +4,7 @@ import {MdAdminPanelSettings} from 'react-icons/md'
 import {FaBars} from 'react-icons/fa'
 
 export const Nav = styled.nav `
-position: fixed;
-right: 0;
-top: 0;
+
 background-color: #fff;
 height: 60px;
 width: 100%;

@@ -11,11 +11,9 @@ const Calculadora1 = () => {
     <Sidebar 
         title="Calculadora" 
         subtitle="Opções" 
-       content={[ {icon: 'account_box', text: 'Personalizado', path: '/calculadora/personalizado'},
+       content={[ {icon: 'account_box', text: 'Personalizado', path: '/calculadora/personalizado'}, ]}/>
         {/* {icon: 'date_range', text: 'Veículos cadastrados', },
   {icon: 'date_range', text: 'Meu veículo vs elétrico',}*/}
-        ]}
-      />
       <CardCalcCustomForm/>
       </div>
     </CalcPersonalizadaContextProvider>

@@ -15,7 +15,7 @@ const EmBreve = (props) => {
                                 onMouseOut={closeHelp}
                                 />
                                 <p className={`${display ? styles.texto : styles.invisible}`}>
-                                {props.text}
+                                Em breve
                         </p>
                 </div>
         )

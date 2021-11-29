@@ -26,8 +26,8 @@ const Navbar = () => {
                         Glossário
                     </NavLink>
                     <NavLink to= "" style={{color: 'black'}}>
-                        <EmBreve text= 'Em breve'/>
-                    </NavLink>
+                      <EmBreve text= 'Em breve'/>            
+                        </NavLink>
                 </NavMenu>
             </Nav>
         </>
