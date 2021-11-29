@@ -8,9 +8,7 @@
 
 ## Integrantes
 
-* Dione Pereira
 * Iara Camargo
-* Gustavo Henrique
 * Tulio Teodoro
 * Yuri Ribeiro
 
