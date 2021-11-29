@@ -1,7 +1,10 @@
-import React from 'react'
-import {Nav, NavLink, Adm,Bars, NavMenu, NavLogo} from './NavbarElements';
+import React   from 'react'
+import EmBreve from '../EmBreve/EmBreve';
+import {Nav, NavLink, Bars, NavMenu, NavLogo, Adm} from './NavbarElements';
+
 
 const Navbar = () => {
+
     return (
         <>
             <Nav>
@@ -22,7 +25,9 @@ const Navbar = () => {
                     <NavLink to="/glossario" activeStyle={{ color: '#000' }}>
                         Glossário
                     </NavLink>
-                    <NavLink to= "/adm" style={{color: "black"}}><Adm/></NavLink>
+                    <NavLink to= "" style={{color: 'black'}}>
+                        <EmBreve text= 'Em breve'/>
+                    </NavLink>
                 </NavMenu>
             </Nav>
         </>

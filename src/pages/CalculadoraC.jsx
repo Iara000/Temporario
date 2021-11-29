@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar/Sidebar'
 import CardCalculadora from '../components/CardCalculadora/CardCalculadora';
-
+import './Calculadora.css'
 
 const CalculadoraV = () => {
   return (
@@ -10,8 +10,8 @@ const CalculadoraV = () => {
         title="Calculadora" 
         subtitle="Opções" 
         content={[ {icon: 'account_box', text: 'Personalizado', path: '/calculadora/personalizado'},
-          {icon: 'date_range', text: 'Veículos cadastrados', path: './cadastrados'},
-          {icon: 'date_range', text: 'Meu veículo vs elétrico', path: './vseletrico'}
+          {/* {icon: 'date_range', text: 'Veículos cadastrados', },
+  {icon: 'date_range', text: 'Meu veículo vs elétrico',}*/}
         ]}
       />
       <CardCalculadora/>

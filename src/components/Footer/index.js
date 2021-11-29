@@ -38,13 +38,13 @@ const Footer = () => {
         </FooterLinkItems>
         <FooterLinkItems>
           <FooterLinkTitle>Social</FooterLinkTitle>
-          <FooterLink href="./">
-            <Twitter /> Twitter
+          <FooterLink to='./'>
+            <Twitter/> Twitter
           </FooterLink>
-          <FooterLink href="./">
+          <FooterLink to='./'>
             <Facebook /> Facebook
           </FooterLink>
-          <FooterLink href="./">
+          <FooterLink to='./'>
             <Instagram /> Instagram
           </FooterLink>
         </FooterLinkItems>
