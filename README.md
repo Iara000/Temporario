@@ -2,9 +2,9 @@
 
 `CURSO` Tecnologia em Sistemas para Internet
 
-`DISCIPLINA` Projeto:Aplicações Web
+`DISCIPLINA` Projeto: Desenvolvimento Web Back-End
 
-`SEMESTRE` 03-2021
+`SEMESTRE` 01-2022
 
 ## Integrantes
 
