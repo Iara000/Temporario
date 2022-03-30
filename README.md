@@ -14,7 +14,7 @@
 
 ## Orientador
 
-* Nathália Valentim
+* Will Ricardo dos Santos Machado
 
 # Documentação
 
