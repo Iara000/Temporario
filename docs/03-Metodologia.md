@@ -35,9 +35,9 @@ Regras:
 
 A divisão de papéis entre os membros do grupo ficou definido da seguinte maneira.
 
-- `Product Owner`: Nathália Valentim
+- `Product Owner`: Will Ricardo dos Santos Machado
 - `Scrum Master`: Tulio Teodoro
-- `Equipe / Time de Desenvolvimento `: Dione Pereira, Iara Camargo, Gustavo Henrique, Tulio Teodoro e Yuri Ribeiro
+- `Equipe / Time de Desenvolvimento `: Iara Camargo, Tulio Teodoro e Yuri Ribeiro
 
 ### Processo
 Segue abaixo.
