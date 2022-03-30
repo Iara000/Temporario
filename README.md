@@ -4,7 +4,7 @@
 
 `DISCIPLINA` Projeto:Aplicações Web
 
-`SEMESTRE` 02-2021
+`SEMESTRE` 03-2021
 
 ## Integrantes
 
