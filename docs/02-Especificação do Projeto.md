@@ -120,28 +120,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| Ao final do cálculo, oferecer opção para o usuário compartilhar o resultado nas redes sociais | BAIXA |
 |RF-004| Permitir que o administrador efetue Logoff no sistema | ALTA |
 |RF-005| Permitir que o administrador realize o cadastro de veículos (elétricos e a combustão) | ALTA |
-|RF-006| Permitir que o administrador realize o cadastro de usuários | ALTA |
+|RF-006| Permitir que o administrador realize o cadastro de usuários | BAIXA |
 |RF-007| Permitir que o administrador efetue Logon no sistema | ALTA |
 |RF-008| Realizar os cálculos necessários para comparação da autonomia e custo beneficio entre carros elétricos x combustão | ALTA |
-|RF-009| Permitir recuperação de login| BAIXA |
+|RF-009| Permitir recuperação de login| ALTA |
 |RF-010| Restrição de extensão do arquivo do upload de imagens| MÉDIA |
 |RF-011| Restrição de tamanho de arquivo do upload de imagens | MÉDIA |
-|RF-012| Criar 3 alternativas de cálculo para escolha do usuario | ALTA |
+|RF-012| Criar 3 alternativas de cálculo para escolha do usuario | MÉDIA |
 |RF-013| Criar o modal para exibição das alternativas de cálculo | ALTA |
 |RF-014| Realizar cálculo com informações personalizadas | ALTA |	
 |RF-015| Realizar cálculo com informações dos veículos cadastrados | ALTA |
-|RF-016| Realizar cálculo com informações do meu veículo vs carro elétrico | ALTA |
+|RF-016| Realizar cálculo com informações do meu veículo vs carro elétrico | BAIXA |
 |RF-017| Cada campo de formulário que possa gerar dúvida deve possuir um icone de ajuda | ALTA |
-|RF-018| Permitir que o usuário encontre eletropostos disponíveis no Brasil | ALTA |
+|RF-018| Permitir que o usuário encontre eletropostos disponíveis no Brasil | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para executar em dispositivos móveis | ALTA |
+|RNF-001| O sistema deve ser responsivo para executar em dispositivos móveis | BAIXA |
 |RNF-002| As permissões de acesso ao sistema podem ser alteradas apenas pelo administrador de sistemas | MÉDIA |
 |RNF-003| Utilizar o SCRUM como metodologia de desenvolvimento | ALTA | 
-|RNF-004| Interface Intuitiva e Reativa | Alta | 
+|RNF-004| Interface Intuitiva e Reativa | ALTA | 
 |RNF-005| O sistema deve funcionar em todos os principais navegadores (Chrome, mozila e Edge) |  MÉDIA | 
 |RNF-006| Deve processar requisições do usuário em no máximo 5s |  BAIXA | 
 
@@ -152,5 +152,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03| O projeto deverá utilizar Arquitetura Reativa   |
+|02| O projeto deverá utilizar Arquitetura Reativa   |
