@@ -153,3 +153,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| O projeto deverá utilizar Arquitetura Reativa   |
+
+## Diagrama de Casos de Uso
+
+O diagrama de casos de uso utiliza um modelo gráfico com as descrições sucintas dos casos de uso e dos atores.
+
+![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/81269914/161441700-af649253-2bd4-4498-a5fa-7b67a447006b.png)
+
