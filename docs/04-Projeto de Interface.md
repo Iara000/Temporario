@@ -3,7 +3,14 @@
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
-## User Flow
+
+## User Flow (De acordo com os RF de alta prioridade)
+
+![Exemplo de UserFlow](img/userflow_projeto_2022.png)
+
+A partir da tela de início (Home) da aplicação, o usuário poderá seguir para a página de Calculadora que possui três opçôes, escolhendo a opção "Veículos cadastrados", o usuário poderá escolher o veículo elétrico e a combustão de uma lista. Para administração, a partir da tela de início, poderá acessar a tela de lista de administradores e cadastro/edição de carros elétricos e a combustão.
+
+## User Flow (Visão geral)
 
 ![Exemplo de UserFlow](img/userflow_projeto.jpg)
 
