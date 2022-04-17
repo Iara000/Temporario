@@ -7,9 +7,7 @@ import {Card}  from 'react-bootstrap'
 <Card style={{ width: '450px', height: '300px', padding: '0px', display: 'flex'}}>
   <div style={{ width: '100%', padding: '0' }}>{props.img}</div>
   <Card.Body style={{ width: '100%' }}>
-    <Card.Text >
       {props.children}
-    </Card.Text>
   </Card.Body>
 </Card>
 </>

@@ -14,7 +14,7 @@ const CardHomeDiversos = () => {
           <div className={styles.curiosidades_item_img}>
             <img src="./images/star.png" alt="Estrela" />
           </div>
-          <div curiosidades_item_info>
+          <div className={styles.curiosidades_item_info}>
             <h3>Qual a diferença entre um carro elétrico e um híbrido?</h3>
             <p>O carro elétrico, como o nome já diz, é movido apenas por ...</p>
           </div>
@@ -24,7 +24,7 @@ const CardHomeDiversos = () => {
           <div className={styles.curiosidades_item_img}>
             <img src="./images/star.png" alt="Estrela" />
           </div>
-          <div curiosidades_item_info>
+          <div className={styles.curiosidades_item_info}>
             <h3>A manutenção do carro elétrico é mais cara?</h3>
             <p>Embora sejam mais caros, os carros elétricos são mais ...</p>
           </div>
@@ -34,7 +34,7 @@ const CardHomeDiversos = () => {
           <div className={styles.curiosidades_item_img}>
             <img src="./images/star.png" alt="Estrela" />
           </div>
-          <div curiosidades_item_info>
+          <div className={styles.curiosidades_item_info}>
             <h3>Carro elétrico pode dar choque?</h3>
             <p>Não. Os carros elétricos são desenvolvidos para não ...</p>
           </div>

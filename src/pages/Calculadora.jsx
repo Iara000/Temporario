@@ -1,6 +1,5 @@
 import React  from 'react'
 import CardCalculadoraInfoGerais from '../components/CardCalculadoraInfoGerais/CardCalculadoraInfoGerais';
-import EmBreve from '../components/EmBreve/EmBreve';
 import Sidebar from '../components/Sidebar/Sidebar'
 import './Calculadora.css'
 
@@ -10,11 +9,13 @@ const Calculadora = () => {
       <Sidebar 
         title="Calculadora" 
         subtitle="Opções" 
-        content={ [{icon: 'account_box', text: 'Personalizado', path: '/calculadora/personalizado'},]}
+        content={[
+          {icon: 'account_box', text: 'Personalizado', path: '/calculadora/personalizado'},
+          {icon: 'date_range', text: 'Veículos cadastrados', path: '/calculadora/veiculos-cadastrados'}
+        ]}
       />
-    <CardCalculadoraInfoGerais />
-      </div>
-  
+      <CardCalculadoraInfoGerais />
+    </div>
   );
 }
 

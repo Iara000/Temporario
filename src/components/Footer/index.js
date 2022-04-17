@@ -16,10 +16,10 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterLinkItems style={{ textAlign: "center" }}>
-        <FooterLinkTitle style={{ display: "flex" }}>
+        <div style={{ display: "flex", alignItems: 'center' }}>
           <img src="./logotipo.svg" height="30" alt="Logo" />
           <FooterLogo>EletriCharge</FooterLogo>
-        </FooterLinkTitle>
+        </div>
         <FooterLink to="./">
           Copyright
           <Copyright /> 2021 EletriCharge

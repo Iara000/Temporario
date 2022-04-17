@@ -2,7 +2,6 @@
 
 .titulo {
   position: absolute;
-  width: 178px;
   height: 24px;
 
   font-family: Quicksand;
@@ -84,6 +83,7 @@
   text-transform: uppercase;
   /* Dark 75% */
   color: rgba(31, 32, 65, 0.75);
+  margin-bottom: 1rem;
 }
 .linha_textoOpcional {
   font-family: Montserrat;
@@ -104,6 +104,33 @@
   width: 775px;
   top: 541px;
   left: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnContainer{
+  position: absolute;
+  top: 285px;
+  left: 100px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.btnBackContainer{
+  position: absolute;
+  top: 265px;
+  left: 100px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.linha_button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linha_button2 {
   display: flex;
   align-items: center;
   justify-content: center;

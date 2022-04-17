@@ -6,7 +6,7 @@ import './Home.css';
 
 const Home = () => {
     return (
-      <div class="conteiner_home">
+      <div className="conteiner_home">
       <CardHome />
       <CardHomeOpcoes />
       <CardHomeDiversos />

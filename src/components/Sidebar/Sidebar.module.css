@@ -40,6 +40,9 @@
     background-color: #1B2B65;
     color: #fff;
 }
+.checked{
+    background-color: #1B2B65;
+}
 
 .item{
     font-size: .85rem;
