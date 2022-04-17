@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Calculadora from './pages/Calculadora';
 import Calculadora1 from './pages/Calculadora1';
 import Calculadora1_1 from './pages/Calculadora1.1';
+import Calculadora2 from './pages/Calculadora2';
+import Calculadora2_1 from './pages/Calculadora2.1';
 import Curiosidades from './pages/Curiosidades';
 import { Glossario } from './pages/Glossario';
 import Home from './pages/index';
@@ -27,6 +29,8 @@ function App() {
         <Route path='/calculadora' exact component={Calculadora}/>
         <Route path='/calculadora/personalizado' exact component={Calculadora1}/>
         <Route path='/calculadora/personalizado/resultado' exact component={Calculadora1_1}/>
+        <Route path='/calculadora/veiculos-cadastrados' exact component={Calculadora2}/>
+        <Route path='/calculadora/veiculos-cadastrados/resultado' exact component={Calculadora2_1}/>
         <Route path='/glossario' exact component={Glossario}/>
       </Switch>
       {alertCtx.display && <Alert />}

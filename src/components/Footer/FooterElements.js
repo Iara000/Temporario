@@ -13,6 +13,7 @@ export const FooterContainer = styled.footer `
  display: flex;
  bottom: 0;
  width: 100%;
+ margin-top: 120px;
 
 `
 export const FooterWrap = styled.div `
@@ -71,8 +72,9 @@ export const Copyright = styled(MdOutlineCopyright)`
 
 `
 export const FooterLogo = styled.h1 `
-background-color: #fff;
-color: #000;
- font-weight: bold;
- font-size: 20px;
+  background-color: #fff;
+  color: #000;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
  `
